@@ -51,4 +51,12 @@
 Subtracting detractors from prmotors gives NPS.
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9afabf6f-1b6e-4191-958d-2cb7f4d27c8c)
-- Facebook has 56.9% NPS where as AdWords has 40% NPS score. 
+- Facebook has 56.9% NPS where as AdWords has 40% NPS score.
+
+### Survey Analysis 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4798100e-7d0c-4023-9d82-bf8616443cf0)
+
+- Analysing the survey answers
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4c1a4ae9-559d-4fda-b4d6-d879f6cb2b3a)
+- We do observe that major cause of first touch point in facebook is friends, family or colegue. 
+
