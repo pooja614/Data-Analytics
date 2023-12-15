@@ -33,7 +33,8 @@
 ### Survey Data 
 - This data is about the survey conducted post completion of the course purchased. 
 - The data consists of answers given by consumers for various question posed.
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/a1f2b4e4-bfd6-41e6-adb1-c328f5c23813)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/dbf6947e-a96b-4643-b7b1-3913273fb977)
+
 
 ### Customer Analysis 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/1e53b196-b256-4afe-883e-9b54318d697b)
@@ -44,5 +45,10 @@
 - Influencers and friend circles recommendation might be the cause for this variation.
 - Customer life time value is $399 for facebook.
 
-### Net Promoter Score 
-- It is a score between -100 to +100
+### Net Promoter Score(NPS)
+- It is a score between -100 to +100 that indicates if the customer is willing to recommend its products and services to others. 
+- 10s and 9s are promotors, 0-6 are detractors ie, they negatively promote resulting less customers.
+Subtracting detractors from prmotors gives NPS.
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9afabf6f-1b6e-4191-958d-2cb7f4d27c8c)
+- Facebook has 56.9% NPS where as AdWords has 40% NPS score. 
