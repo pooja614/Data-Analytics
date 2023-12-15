@@ -65,11 +65,15 @@ Subtracting detractors from prmotors gives NPS.
 - Initial signup is considered as lead in this project. 
 - LinkedIn Ad and Spotify Ad are potential new add to try with whose data is assumed relied on other data.
 - The Spotify Ad clicks is assumed to be high as users listen to the add on spotify, the reach is high.
-- The initial investment is high is LinkedIn as LinkedIn has concetrated crowd unlike FB etc. 
+- The initial investment is high is LinkedIn as LinkedIn has concetrated crowd unlike Facebook etc.
+- Relevant retention rate is assumed.
+- 75% margin rate is used. 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/116338e9-6dba-40df-8402-f826ffadddc1)
+- The net customer life time value is more for Facebook Ad($399), LinkedIn Ad($268). 
+- The customer acquired per $1000 spend is lowest for LinkedIn and highest for Facebook Ad.
 
-
-### Projections 
+### Projections  
+#### Proposal 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/63d7630f-b91c-4868-ab5b-142263a1533f) 
 
 - Two scenarios are considered : Having social media manager(1) and no social media manager(0). 
