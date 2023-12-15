@@ -67,6 +67,11 @@ Subtracting detractors from prmotors gives NPS.
 
 ### Projections 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/63d7630f-b91c-4868-ab5b-142263a1533f) 
+
+- Two scenarios are considered : Having social media manager(1) and no social media manager(0). 
+- LinkedIn and Spotify are the new lead sources.
+- Monthly Ads and few metrics are assumed and analysed for the correctnes  of business decision.
+- 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/b780ffcb-56cf-4f06-8eb5-6464af566fc0) 
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9f2c6737-7e7e-43d2-aafc-744c3f5f969c) 
