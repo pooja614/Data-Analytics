@@ -26,7 +26,7 @@
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/54ddd614-69b8-4eb7-90d7-9446e7b2a60f) 
 
-- Additional columns days to purchase(Number of days from signup to purchase) and the touch point for the purchase(stage of campaign responsible for purchase)  where created.
+- Additional columns days to purchase(Number of days from signup to purchase) and the touch point for the purchase(how maany times the customer was reached)  where created.
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9fa701bb-896b-4b3a-8203-313841b12940)
 
