@@ -48,7 +48,7 @@
 ### Net Promoter Score(NPS)
 - It is a score between -100 to +100 that indicates if the customer is willing to recommend its products and services to others. 
 - 10s and 9s are promotors, 0-6 are detractors ie, they negatively promote resulting less customers.
-Subtracting detractors from prmotors gives NPS.
+Subtracting detractors from prmotors gives NPS. 
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9afabf6f-1b6e-4191-958d-2cb7f4d27c8c)
 - Facebook has 56.9% NPS where as AdWords has 40% NPS score.
@@ -62,8 +62,12 @@ Subtracting detractors from prmotors gives NPS.
 
 ### Ad Channels 
 - New lead sources are added and analysed with prospect values.
-- The investment and budget values are assumed, which is different in real world scenario. 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/d36928d4-c499-4141-b96b-3f6da1433ff5)
+- Initial signup is considered as lead in this project. 
+- LinkedIn Ad and Spotify Ad are potential new add to try with whose data is assumed relied on other data.
+- The Spotify Ad clicks is assumed to be high as users listen to the add on spotify, the reach is high.
+- The initial investment is high is LinkedIn as LinkedIn has concetrated crowd unlike FB etc. 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/116338e9-6dba-40df-8402-f826ffadddc1)
+
 
 ### Projections 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/63d7630f-b91c-4868-ab5b-142263a1533f) 
