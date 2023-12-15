@@ -60,3 +60,21 @@ Subtracting detractors from prmotors gives NPS.
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4c1a4ae9-559d-4fda-b4d6-d879f6cb2b3a)
 - We do observe that major cause of first touch point in facebook is friends, family or colegue. 
 
+### Ad Channels 
+- New lead sources are added and analysed with prospect values.
+- The investment and budget values are assumed, which is different in real world scenario. 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/d36928d4-c499-4141-b96b-3f6da1433ff5)
+
+### Projections 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/63d7630f-b91c-4868-ab5b-142263a1533f) 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/b780ffcb-56cf-4f06-8eb5-6464af566fc0) 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9f2c6737-7e7e-43d2-aafc-744c3f5f969c) 
+
+### Dashboard 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/299af6d4-5338-40db-bc25-38c1e6cfc09f)
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9ec1bee4-94e1-478a-8071-b27c51cfac32)
+
+
