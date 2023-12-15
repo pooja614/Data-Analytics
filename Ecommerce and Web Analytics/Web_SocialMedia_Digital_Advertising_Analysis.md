@@ -30,3 +30,19 @@
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9fa701bb-896b-4b3a-8203-313841b12940)
 
+### Survey Data 
+- This data is about the survey conducted post completion of the course purchased. 
+- The data consists of answers given by consumers for various question posed.
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/a1f2b4e4-bfd6-41e6-adb1-c328f5c23813)
+
+### Customer Analysis 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/1e53b196-b256-4afe-883e-9b54318d697b)
+
+- Customer acquisition cost is low for <b>Facebook</b>.
+- Facebook is mainly attracting 18-25(43%) and 26-35(38%) age groups. Adwords is attracting 22% of 18-25 age group and 37% of 26-35 group.
+- Thus facebook platform is better for attracting millenials and young age groups.
+- Influencers and friend circles recommendation might be the cause for this variation.
+- Customer life time value is $399 for facebook.
+
+### Net Promoter Score 
+- It is a score between -100 to +100
