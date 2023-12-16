@@ -10,5 +10,7 @@ This project aims at analysing traffic sources and website performance of an eco
 
 - Website session table contains alld etails about the sessions, its creation, utm source, campaign and content,device type used and http_referrer.
 #### UTM Parameters
-- utm_source: 
-  
+
+As in Wikepedia, 
+- utm_source: Identifies which site sent the traffic, and is a required parameter.
+- utm_medium: what type of link was used, such as cost per click or email.
