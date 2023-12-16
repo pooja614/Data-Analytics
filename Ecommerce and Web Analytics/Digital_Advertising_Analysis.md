@@ -74,12 +74,16 @@ Subtracting detractors from prmotors gives NPS.
 
 ### Projections  
 #### Proposal 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/63d7630f-b91c-4868-ab5b-142263a1533f) 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/28dc649e-7ba8-475c-b536-a681eae10b4d)
 
-- Two scenarios are considered : Having social media manager(1) and no social media manager(0). 
-- LinkedIn and Spotify are the new lead sources.
-- Monthly Ads and few metrics are assumed and analysed for the correctnes  of business decision.
+- Proposal of having a new social media manager is propsed.
+- Two scenarios are considered: Having social media manager(1) and not having social media manager(0).
+- 20% of time is allocated for social media management.
+- Customer CVR is expected to increase for scenario 1
+- Retention is expected to increase as social media manager is expected to onvolve with the customers and know their requirements, issues etc.
+- Organic customers are the customers acquired without PPC advertisement. Eg: By promotion by another customer.
 - 
+
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/b780ffcb-56cf-4f06-8eb5-6464af566fc0) 
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9f2c6737-7e7e-43d2-aafc-744c3f5f969c) 
