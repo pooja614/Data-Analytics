@@ -1,3 +1,8 @@
+
+## About 
+- This project aims at marketing a course online. The organisation is focused on improving their business and customer retension. 
+- This case study is a part of handson course on marketing analytics <a href = "https://www.udemy.com/share/101Xt03@pwnxgQvocX54z7x6WdrspM9FFvfjLYZ3PrMl2r4aaTylvAQrKr9TSriVy4iek40f/">udemy</a>  
+- 
 ## PPC Analysis 
 
 ### PPC Campaign Data 
@@ -72,7 +77,7 @@ Subtracting detractors from prmotors gives NPS.
 - The net customer life time value is more for Facebook Ad($399), LinkedIn Ad($268). 
 - The customer acquired per $1000 spend is lowest for LinkedIn and highest for Facebook Ad.
 
-### Projections  
+### Cashflow and Projections  
 #### Proposal 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/28dc649e-7ba8-475c-b536-a681eae10b4d)
 
@@ -87,17 +92,28 @@ Subtracting detractors from prmotors gives NPS.
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/700d46c0-f319-4f4b-98ab-d7b5e668b3db)
 
-- <b>Social media followers</b> is estimated for next 2 years using the current follwers and scenario growth rate.
-- <b>Social Media Revenue & Customers</b> Here churn is estimated as (1-retenion rate)*(# customers last year)
+- Social media followers is estimated for next 2 years using the current follwers and scenario growth rate.
+- Social Media Revenue & Customers: Here churn is estimated as (1-retenion rate)*(# customers last year)
 - Revenue  = total customers * (average 1 year purchase)/12
 - Organic Followers' Revenue = (Current month follwers - previous month follwers)* (average 1 year purchase)/12
-- 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9f2c6737-7e7e-43d2-aafc-744c3f5f969c) 
 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/d2bf3b22-a1dd-41b7-a69a-cb4bb5b92b01)
+
+- Social Media Expenses is calculated which includes PPC advertisements,salary for the appointed social media manager, social media tools used for management.
+- Net profit, breakeven month is calculated.
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c32d02cb-5b57-49bb-8068-8afee3133019)
+
+- The return summary summarizes the analysis with increment%, ROI, Revenue, net profit etc.
+- Sensitivity table sensitises ROI, Revenue, Net Profit and New Customers.
+- ROI under various % of followers growth against LinkedIn and Facebook is analysed.
+- ROI table for Facebook conversion increase Vs adWords conversion increase is analysed. 
 ### Dashboard 
-
+- Its a final dashboard which has options to dynamically change the assumptions for better analysis. 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/299af6d4-5338-40db-bc25-38c1e6cfc09f)
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9ec1bee4-94e1-478a-8071-b27c51cfac32)
+
+### References 
 
 
