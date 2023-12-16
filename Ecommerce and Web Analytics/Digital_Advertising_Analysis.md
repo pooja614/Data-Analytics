@@ -81,11 +81,17 @@ Subtracting detractors from prmotors gives NPS.
 - 20% of time is allocated for social media management.
 - Customer CVR is expected to increase for scenario 1
 - Retention is expected to increase as social media manager is expected to onvolve with the customers and know their requirements, issues etc.
-- Organic customers are the customers acquired without PPC advertisement. Eg: By promotion by another customer.
+- Organic Customer Acquisistion: Organic customers are the customers acquired without PPC advertisement. Eg: By promotion by another customer.
+- As there is a focus on social media by the manager and connect with the audience is focused, 1% growth without social media manager and 8% growth with social media manager is considered.
+- Retension of organic customers is considered higher than other type of customer. 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/700d46c0-f319-4f4b-98ab-d7b5e668b3db)
+
+- <b>Social media followers</b> is estimated for next 2 years using the current follwers and scenario growth rate.
+- <b>Social Media Revenue & Customers</b> Here churn is estimated as (1-retenion rate)*(# customers last year)
+- Revenue  = total customers * (average 1 year purchase)/12
+- Organic Followers' Revenue = (Current month follwers - previous month follwers)* (average 1 year purchase)/12
 - 
-
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/b780ffcb-56cf-4f06-8eb5-6464af566fc0) 
-
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9f2c6737-7e7e-43d2-aafc-744c3f5f969c) 
 
 ### Dashboard 
