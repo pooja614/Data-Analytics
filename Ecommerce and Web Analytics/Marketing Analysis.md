@@ -2,7 +2,8 @@
 ## About 
 - This project aims at marketing a course online. The organisation is focused on improving their business and customer retension. 
 - This case study is a part of handson course on marketing analytics <a href = "https://www.udemy.com/share/101Xt03@pwnxgQvocX54z7x6WdrspM9FFvfjLYZ3PrMl2r4aaTylvAQrKr9TSriVy4iek40f/">udemy</a>  
-- 
+- PPC campaign data, lead to customer data, survey data of the customers after the completion of the course are used for our analysis.
+- The project focuses on various metrics essential for marketing resulting in improved business. 
 ## PPC Analysis 
 
 ### PPC Campaign Data 
