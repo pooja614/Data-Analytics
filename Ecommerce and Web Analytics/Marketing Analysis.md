@@ -1,7 +1,6 @@
 
 ## About 
-- This project aims at marketing a course online. The organisation is focused on improving their business and customer retension. 
-- This case study is a part of handson course on marketing analytics <a href = "https://www.udemy.com/share/101Xt03@pwnxgQvocX54z7x6WdrspM9FFvfjLYZ3PrMl2r4aaTylvAQrKr9TSriVy4iek40f/">udemy</a>  
+- This project aims at marketing a course online. The organisation is focused on improving their business and customer retension.  
 - PPC campaign data, lead to customer data, survey data of the customers after the completion of the course are used for our analysis.
 - The project focuses on various metrics essential for marketing resulting in improved business. 
 ## PPC Analysis 
@@ -116,5 +115,5 @@ Subtracting detractors from prmotors gives NPS.
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9ec1bee4-94e1-478a-8071-b27c51cfac32)
 
 ### References 
-
+- This case study is a part of handson course on marketing analytics <a href = "https://www.udemy.com/share/101Xt03@pwnxgQvocX54z7x6WdrspM9FFvfjLYZ3PrMl2r4aaTylvAQrKr9TSriVy4iek40f/">Udemy</a> 
 
