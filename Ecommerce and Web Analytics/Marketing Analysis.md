@@ -80,7 +80,7 @@ Subtracting detractors from prmotors gives NPS.
 #### Proposal 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/28dc649e-7ba8-475c-b536-a681eae10b4d)
 
-- Proposal of having a new social media manager is propsed.
+- Proposal of having a new social media manager is proposed.
 - Two scenarios are considered: Having social media manager(1) and not having social media manager(0).
 - 20% of time is allocated for social media management.
 - Customer CVR is expected to increase for scenario 1
