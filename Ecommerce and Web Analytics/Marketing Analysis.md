@@ -12,7 +12,6 @@
 - The name of the campaign, impressions, number of clicks, cost of the add, number of coversions and convertion rate(CVR) are present.
 
 
-
 ### Analysis
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/f4aaae6d-5527-47d3-b019-b288f2a4f36a)
 
