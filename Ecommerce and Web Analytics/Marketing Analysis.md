@@ -1,6 +1,6 @@
 
 ## About 
-- This project aims at marketing a course online. The organisation is focused on improving their business and customer retension.  
+- This case study project aims at marketing a course online. The organisation is focused on improving their business and customer retension.  
 - PPC campaign data, lead to customer data, survey data of the customers after the completion of the course are used for our analysis.
 - The project focuses on various metrics essential for marketing resulting in improved business. 
 ## PPC Analysis 
