@@ -89,12 +89,23 @@ from each of the two pages to orders. You can use the same time period you analy
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/20d44855-edbb-45f6-be67-b0c5a545e901)
 
 -- funnel through customer lander , saw_homepage 
-    
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c1dd3e66-c275-436b-a212-4be53d51e5df)
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e8ffba35-24c3-40d3-84d9-eb80d7adc776)
+
 -- click rates  
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/245aab5b-ba95-4aaa-9cfc-109db5a66772)
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/1c28180c-ea11-424b-bac7-02cdda31ef4b)
+
 
 9. I’d love for you to quantify the impact of our billing test, as well. Please analyze the lift generated 
 from the test (Sep 10 – Nov 10), in terms of revenue per billing page session, and then pull the number 
 of billing page sessions for the past month to understand monthly impact.
+   
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/453dd51c-a2c1-4f3d-8ed1-ee338e4dec94)
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/7959cff9-9eb1-42f2-b526-5a663f823e32)
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/021aa63f-7186-4f0c-87d4-724620108ace)
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/817b62ad-6aa7-4539-b4f7-2802987454f4)
+
 
 
 
