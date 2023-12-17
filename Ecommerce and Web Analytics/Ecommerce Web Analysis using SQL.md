@@ -40,24 +40,26 @@ trends for gsearch sessions and orders so that we can showcase the growth there?
    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/d86f16d1-6ecb-4b7f-a725-fffc0e95c944)
    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/a12da68b-9dd8-4cc5-a275-b95f99037913)
 
-4. While we’re on Gsearch, could you dive into nonbrand, and pull monthly sessions and orders split by device type? 
-I want to flex our analytical muscles a little and show the board we really know our traffic sources. 
+4. On Gsearch, could you dive into nonbrand, and pull monthly sessions and orders split by device type to know the traffic sources. 
    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e4d231c2-ee19-427e-8343-c0e89cd55704)
    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/76b21881-671a-44fe-bd64-030aa745c497)
 
-5. I’m worried that one of our more pessimistic board members may be concerned about the large % of traffic from Gsearch. 
+5. One of our more pessimistic board members may be concerned about the large % of traffic from Gsearch. 
 Can you pull monthly trends for Gsearch, alongside monthly trends for each of our other channels?
--- first, finding the various utm sources and referers to see the traffic we're getting
+   - Find the various utm sources and referers to see the traffic sources
    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/415e6780-1aec-40ec-b799-1bef67365fbb)
    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/f6d0e8f0-c149-4e9f-9a47-8ddba8184567)
+   - Count different traffic sources and orders
+   ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/abc864b3-c6c3-401f-b0a7-9be47748c0c1)
+   ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/10a2dbae-d9a8-4e71-b836-60df86c3fdce)
 
-6. I’d like to tell the story of our website performance improvements over the course of the first 8 months. 
+6. How is the website performance improvements over the course of the first 8 months?
 Could you pull session to order conversion rates, by month?
    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/70caf7c7-825e-4a99-b010-8d285611e466)
    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/defd18e3-ab79-4b5a-85f4-79e95369d07f)
 
-
-8. For the gsearch lander test, please estimate the revenue that test earned us 
+8. Gsearch non brand is the major source of traffic. Estimate the revenue for 'lander 1' and 'home'
+8. For the gsearch lander test, please estimate the revenue that test earned us.  
 (Hint: Look at the increase in CVR from the test (Jun 19 – Jul 28), and use 
 nonbrand sessions and revenue since then to calculate incremental value)
    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9ad3c614-4fea-4834-a510-30f95cd89a27)
