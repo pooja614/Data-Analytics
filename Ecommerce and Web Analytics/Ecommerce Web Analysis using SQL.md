@@ -68,18 +68,28 @@ nonbrand sessions and revenue since then to calculate incremental value)
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c5fc294a-798e-42e5-a569-ad2039b068fb)
 
 -- next, we'll bring in the landing page to each session, like last time, but restricting to home or lander-1 this time 
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/f7b57e80-c2ce-483c-95ed-3514f44697fe)
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/05ada6e8-4e8e-4b74-ac15-c1d05759f382)
 
 -- then we make a table to bring in orders  
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/5d20f0d1-f68d-42fd-974c-9ac4f0563b83)
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/cd048e8d-b01e-4b2e-85ad-00dca07ad3d3)
 
 -- to find the difference between conversion rates 
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/8e5e9c12-7b91-4245-9c44-dc857a413d7e)
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/181c52ee-1657-4252-aa0b-e8e04cd14b0a)
 
 -- finding the most reent pageview for gsearch nonbrand where the traffic was sent to /home 
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e02ec7c3-ac97-4860-b5cd-b097dfcc4fbc)
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/989b217f-4445-4680-9d7b-7567285b19f4)
 
 8. For the landing page test you analyzed previously, it would be great to show a full conversion funnel 
 from each of the two pages to orders. You can use the same time period you analyzed last time (Jun 19 – Jul 28).
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4e019494-47dc-45f1-8c58-39f79a7e772a)
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/20d44855-edbb-45f6-be67-b0c5a545e901)
 
 -- funnel through customer lander , saw_homepage 
-
+    
 -- click rates  
 
 9. I’d love for you to quantify the impact of our billing test, as well. Please analyze the lift generated 
