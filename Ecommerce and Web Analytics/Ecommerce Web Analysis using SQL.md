@@ -24,14 +24,15 @@ This project aims at analysing traffic sources and website performance of an eco
 
 1. Where the bulk of our website sessions are coming from April 12 2012. Breakdown by UTM source, campaign
 and referring domain.
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/f737845a-b239-4cb3-838e-f8bee3a3ab17)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9a17afe8-a9cc-48b9-9ea2-b901b999664c)
 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/eb3dd831-e8f9-4f5a-a323-462f8675c1ed)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/af741919-d2b2-4b3a-9695-f5974d5de02e)
+
 
 2. Gsearch seems to be the biggest driver of our business. Pull monthly 
 trends for gsearch sessions and orders so that we can showcase the growth there.
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/8bd437b9-19b4-4bf7-aec7-10b9e6012ad7)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/5e39697e-9c56-430a-8924-eee8a30d70ce)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/3b462582-897c-4c7a-84c4-5760c08765d3)
 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/8ac2a58d-6b07-4ff0-907e-78a7fb592aa2)
 
 3. 
