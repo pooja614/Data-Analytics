@@ -20,3 +20,18 @@ This project aims at analysing traffic sources and website performance of an eco
 - <b>order_items</b>:It contains details about the item purchasedincluding type of product, orderid, price, etc.
 - <b>order_item_refunds</b>: It contains details of the refund amount, the order item and order ids of the refunded product.
   
+## Analysis 
+
+1. Where the bulk of our website sessions are coming from April 12 2012. Breakdown by UTM source, campaign
+and referring domain.
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/f737845a-b239-4cb3-838e-f8bee3a3ab17)
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/eb3dd831-e8f9-4f5a-a323-462f8675c1ed)
+
+2. Gsearch seems to be the biggest driver of our business. Pull monthly 
+trends for gsearch sessions and orders so that we can showcase the growth there.
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/8bd437b9-19b4-4bf7-aec7-10b9e6012ad7)
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/8ac2a58d-6b07-4ff0-907e-78a7fb592aa2)
+
+3. 
