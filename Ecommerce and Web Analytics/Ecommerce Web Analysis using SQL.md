@@ -58,53 +58,65 @@ Could you pull session to order conversion rates, by month?
    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/70caf7c7-825e-4a99-b010-8d285611e466)
    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/defd18e3-ab79-4b5a-85f4-79e95369d07f)
 
-8. Gsearch non brand is the major source of traffic. Estimate the revenue for 'lander 1' and 'home'
-8. For the gsearch lander test, please estimate the revenue that test earned us.  
-(Hint: Look at the increase in CVR from the test (Jun 19 – Jul 28), and use 
-nonbrand sessions and revenue since then to calculate incremental value)
+8. The organisation ran a new custom landing page (/lander-1) in a 50/50 test against the homepage (/home) for gsearch nonbrand traffic.  Estimate the revenue for 'lander 1' and 'home'. Make sure to just look at the time period where /lander-1 was getting traffic.
+For the gsearch lander test, please estimate the revenue that test earned us.(Hint: Look at the increase in CVR from the test (Jun 19 – Jul 28)
+
+   Identify first test page visit
+     
    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9ad3c614-4fea-4834-a510-30f95cd89a27)
    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/07f8fb74-131c-46de-9aa8-350d4b944e07)
 
--- for this step, we'll find the first pageview id
+   Find the first pageview id
+   
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/90424c9e-bc9c-48e8-b624-86a5ce9ed2ce)
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c5fc294a-798e-42e5-a569-ad2039b068fb)
 
--- next, we'll bring in the landing page to each session, like last time, but restricting to home or lander-1 this time 
+   Identify the landing page to each session: Either home or lander-1
+   
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/f7b57e80-c2ce-483c-95ed-3514f44697fe)
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/05ada6e8-4e8e-4b74-ac15-c1d05759f382)
 
--- then we make a table to bring in orders  
+   Create table to get orders
+   
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/5d20f0d1-f68d-42fd-974c-9ac4f0563b83)
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/cd048e8d-b01e-4b2e-85ad-00dca07ad3d3)
 
--- to find the difference between conversion rates 
+   Find the difference between conversion rates
+   
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/8e5e9c12-7b91-4245-9c44-dc857a413d7e)
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/181c52ee-1657-4252-aa0b-e8e04cd14b0a)
 
--- finding the most reent pageview for gsearch nonbrand where the traffic was sent to /home 
+   Find the most recent pageview for gsearch nonbrand where the traffic was sent to /home
+   
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e02ec7c3-ac97-4860-b5cd-b097dfcc4fbc)
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/989b217f-4445-4680-9d7b-7567285b19f4)
 
 8. For the landing page test you analyzed previously, it would be great to show a full conversion funnel 
 from each of the two pages to orders. You can use the same time period you analyzed last time (Jun 19 – Jul 28).
+
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4e019494-47dc-45f1-8c58-39f79a7e772a)
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/20d44855-edbb-45f6-be67-b0c5a545e901)
 
--- funnel through customer lander , saw_homepage 
+    Funnel through customer lander , saw_homepage
+   
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c1dd3e66-c275-436b-a212-4be53d51e5df)
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e8ffba35-24c3-40d3-84d9-eb80d7adc776)
 
--- click rates  
+    Click rates across the funnel 
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/245aab5b-ba95-4aaa-9cfc-109db5a66772)
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/1c28180c-ea11-424b-bac7-02cdda31ef4b)
 
 
-9. I’d love for you to quantify the impact of our billing test, as well. Please analyze the lift generated 
+10. I’d love for you to quantify the impact of our billing test, as well. Please analyze the lift generated 
 from the test (Sep 10 – Nov 10), in terms of revenue per billing page session, and then pull the number 
 of billing page sessions for the past month to understand monthly impact.
-   
+
+    Billing inner query
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/453dd51c-a2c1-4f3d-8ed1-ee338e4dec94)
-    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/7959cff9-9eb1-42f2-b526-5a663f823e32)
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/5e67663b-3a13-4f7c-9579-3ac6fbe4019c)
+
+
+    Number of billing page sessions past month
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/021aa63f-7186-4f0c-87d4-724620108ace)
     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/817b62ad-6aa7-4539-b4f7-2802987454f4)
 
