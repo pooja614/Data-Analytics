@@ -10,11 +10,15 @@ Data Analysis using Excel.
 	
 </pre>
 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/b73efd3b-fe5b-49b3-a22e-be399c041c94)
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e9bbb196-f4b2-4dbc-af3c-71df402e986e)
+
 
 ## Data Preprocessing 
 The data was checked for duplicates, null values and relevant data types were assigned. 
 PowerQuery editor is used. 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/45cdb85e-f661-401c-a512-4d59cd477e32)
+
 
 ## Exploratory Data Analysis
 The Data has been explored in the following directions to develop useful insights of the data. 
@@ -44,6 +48,5 @@ The Data has been explored in the following directions to develop useful insight
 ### Dynamic Dashboard(State Level Analysis)
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e3cae992-aae0-4b3f-94c1-bff13ad4c3fb) 
 
-![Adidas-USj](https://github.com/pooja614/Data-Analytics/assets/69869583/7ff1cd7a-490a-44ab-bb1b-85ff910ec7e9)
-
+![adidas_last](https://github.com/pooja614/Data-Analytics/assets/69869583/88fbc442-2af7-44bc-a5d5-247925b2b88d)
 
