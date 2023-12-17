@@ -14,3 +14,6 @@ This project aims at analysing traffic sources and website performance of an eco
 As in Wikepedia, 
 - utm_source: Identifies which site sent the traffic, and is a required parameter.
 - utm_medium: what type of link was used, such as cost per click or email.
+- utm_campaign: It indicates a specific promotion or strategic promotion.
+- utm_content: Indentifies what specifically clicked brought user to the site, such as banner ad or text link, logo etc. It is used for A/B testing, content targeted ads etc. 
+- 
