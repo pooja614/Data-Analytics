@@ -63,6 +63,10 @@ nonbrand sessions and revenue since then to calculate incremental value)
    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9ad3c614-4fea-4834-a510-30f95cd89a27)
    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/07f8fb74-131c-46de-9aa8-350d4b944e07)
 
+-- for this step, we'll find the first pageview id
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/90424c9e-bc9c-48e8-b624-86a5ce9ed2ce)
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c5fc294a-798e-42e5-a569-ad2039b068fb)
+
 -- next, we'll bring in the landing page to each session, like last time, but restricting to home or lander-1 this time 
 
 -- then we make a table to bring in orders  
