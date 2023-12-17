@@ -16,8 +16,8 @@ Data Analysis using Excel.
 
 ## Data Preprocessing 
 The data was checked for duplicates, null values and relevant data types were assigned. 
-PowerQuery editor is used. 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/45cdb85e-f661-401c-a512-4d59cd477e32)
+PowerQuery editor is used.  
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9d6fbc82-c22c-4d61-9432-d7b19265ce80)
 
 
 ## Exploratory Data Analysis
