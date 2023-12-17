@@ -2,7 +2,7 @@
 ## Aim 
 
 This project aims at analysing traffic sources and website performance of an ecommerce website. 
-
+ 
 ## About the data 
 - The mavenfuzzyfactory database is used for our analysis.
 - The data has the following schema. 
