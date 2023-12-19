@@ -1,7 +1,9 @@
 # Supply Chain Analysis 
 
 Supply chain analysis is the process of evaluating every stage of a supply chain starting from the time the business acquires raw materials or supplies from its suppliers, to the delivery of final products to the customers. 
-                         ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/526837a4-1a10-4e36-84ae-106d7ac3394e)
+                        
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/98ef2f00-0499-41fa-99c1-57dc860ea9c0)
 
 
 ## Descriptive analytics
