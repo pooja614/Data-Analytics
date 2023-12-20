@@ -99,25 +99,36 @@ DIVIDE(
 </pre>
 - DAX measures is used for applying suitable filtering and generating aggregate values.
 
-![Vrinda_Stores-2023_ggif](https://github.com/pooja614/Data-Analytics/assets/69869583/a9c632a6-a71a-4697-b3eb-3b04c24fb932)
+
+### Dashboard 
+
+
+![Vrinda_Stores-2023_ggif](https://github.com/pooja614/Data-Analytics/assets/69869583/334d1aaa-4013-4eab-b5d0-f7cd41e882bc)
+
 
 
 ### Sales Insights
 
 <pre></pre>
-![image](https://github.com/pooja614/PowerBI_Projects_/assets/69869583/74295257-a2b1-4770-b9f8-38a7e552e00b)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/2821ca3c-a16c-4d07-8409-0f726797379e)
+
 <pre></pre>
 ### Sales Trends 
 
 <pre></pre>
-![image](https://github.com/pooja614/PowerBI_Projects_/assets/69869583/b9b80680-4426-41bc-91b5-a71b450b3e76)
-<pre></pre>
-### Andrapradesh, Vishakhapatnam Refund Insights. 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9e98f0f9-2eea-4727-9314-88bbde116912)
 
 <pre></pre>
-![image](https://github.com/pooja614/PowerBI_Projects_/assets/69869583/c394c868-1d13-4f16-bd73-2ee6d53349e1)
+### What are the 'returned' insights in Madhya Pradesh?
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/fd72dc4c-4b61-42e3-80ee-0819bfc54331)
+
 <pre></pre>
-### Sales Trend in Amazon Channel for Top Category 
+
+<pre></pre>
+### How are sales of 'Sarees' and 'Top' in Amazon?  
+##### Saree Sales
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/6b81a268-7543-436d-b407-db15b669c7c0)
+##### Top Sales 
 <pre></pre>
 
 ![image](https://github.com/pooja614/PowerBI_Projects_/assets/69869583/eef01025-ae29-4408-83c2-2b2bf8281494)
@@ -137,7 +148,7 @@ DIVIDE(
 - 93% of sales are delivered overall, 2.3% of sales are cancelled, 1.3% are refunded and 3.4% are returned.
 - Flipkart and Myntra has 3M sales returned,  5M sales in Amazon is returned.  
 </pre>
-### Category and Sales of not delivered Items 
+##### Category and Sales of not delivered Items 
 <pre>
 - Depicts total sales of undelivered : Refunded, cancelled, returned.
   - Men have western dress the highest followed by 'set'. 
@@ -146,7 +157,7 @@ DIVIDE(
 </pre>
   
 
-### Purchase Trends Women
+##### Purchase Trends Women
 <pre>
 On filter on women, 
 - February to April is peak time for Set purchases, with peak on March. 
@@ -154,14 +165,14 @@ On filter on women,
 - Kurta has peak sales during February, May, September, November. 
 - March, September, November is peak time for western dress of women.
 </pre>
-### Date and Sales 
+##### Date and Sales 
 <pre>
 - Qtr 1 has highest sales and Qtr 4 has lowest sales. 
 - March- April has peak sales followed by July- August. 
 - July has highest MoM% change and September has lowest. 
 - Overall sales has a decreasing trend. 
 </pre>
-### Delivery Status Analysis 
+##### Delivery Status Analysis 
 
 <pre>
 - Top table shows the category wise status. 
