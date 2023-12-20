@@ -99,6 +99,8 @@ DIVIDE(
 </pre>
 - DAX measures is used for applying suitable filtering and generating aggregate values.
 
+![Vrinda_Stores-2023_ggif](https://github.com/pooja614/Data-Analytics/assets/69869583/a9c632a6-a71a-4697-b3eb-3b04c24fb932)
+
 
 ### Sales Insights
 
