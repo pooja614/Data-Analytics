@@ -119,13 +119,13 @@ DIVIDE(
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9e98f0f9-2eea-4727-9314-88bbde116912)
 
 <pre></pre>
-### What are the 'returned' insights in Madhya Pradesh?
+### Q1. What are the 'returned' insights in Madhya Pradesh?
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/fd72dc4c-4b61-42e3-80ee-0819bfc54331)
 
-<pre></pre>
+
 
 <pre></pre>
-### How are sales of 'Sarees' and 'Top' in Amazon?  
+### Q2. How are sales of 'Sarees' and 'Top' in Amazon?  
 ##### Saree Sales
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/6b81a268-7543-436d-b407-db15b669c7c0)
 ##### Top Sales 
