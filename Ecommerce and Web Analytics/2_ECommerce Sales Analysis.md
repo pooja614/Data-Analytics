@@ -109,13 +109,13 @@ DIVIDE(
 
 ### Sales Insights
 
-<pre></pre>
+
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/2821ca3c-a16c-4d07-8409-0f726797379e)
 
 <pre></pre>
 ### Sales Trends 
 
-<pre></pre>
+
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9e98f0f9-2eea-4727-9314-88bbde116912)
 
 <pre></pre>
@@ -127,11 +127,14 @@ DIVIDE(
 <pre></pre>
 ### Q2. How are sales of 'Sarees' and 'Top' in Amazon?  
 ##### Saree Sales
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/6b81a268-7543-436d-b407-db15b669c7c0)
-##### Top Sales 
-<pre></pre>
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/6b81a268-7543-436d-b407-db15b669c7c0) 
 
-![image](https://github.com/pooja614/PowerBI_Projects_/assets/69869583/eef01025-ae29-4408-83c2-2b2bf8281494)
+##### Top Sales 
+
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/5cedb9e4-44db-4518-a648-99e472f35de7)
+
+
 <pre></pre>
 
 
