@@ -99,6 +99,7 @@ DIVIDE(
 </pre>
 - DAX measures is used for applying suitable filtering and generating aggregate values.
 
+
 ### Sales Insights
 
 <pre></pre>
