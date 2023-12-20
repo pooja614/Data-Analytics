@@ -1,4 +1,4 @@
-# Ecommerce & Website Analysis Using SQL 
+# Website Traffic and Ecommerce Analysis Using SQL 
 
 ## Objective 
 Extract and analyze website traffic and performance data from the Maven Fuzzy Factory
