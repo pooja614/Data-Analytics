@@ -1,4 +1,4 @@
-# Data-Analytics
+# DATA ANALYTICS
 My Data Analytics Portfolio Projects
 
 
