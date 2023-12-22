@@ -47,6 +47,6 @@ The Data has been explored in the following directions to develop useful insight
 
 ### Dynamic Dashboard(State Level Analysis)
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e3cae992-aae0-4b3f-94c1-bff13ad4c3fb) 
-
+### Dashboard GIF
 ![adidas_last](https://github.com/pooja614/Data-Analytics/assets/69869583/88fbc442-2af7-44bc-a5d5-247925b2b88d)
 
