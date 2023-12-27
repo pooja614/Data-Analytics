@@ -118,7 +118,9 @@ COALESCE(
 ## Tooltips and Filters
 Tooltips and filters are used. 
 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9d117a83-2b91-4f0a-ab78-8b037898f5bb)
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9c64a7f5-0f22-4bcc-98ac-ce595106f575)
+
 
 
 ## Visualizations 
