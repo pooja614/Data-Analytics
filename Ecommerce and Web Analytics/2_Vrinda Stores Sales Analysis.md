@@ -116,8 +116,9 @@ DIVIDE(
 <pre></pre>
 ### Sales Trends 
 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/76e1bf7a-cec4-4daa-b43a-419bfad189f8)
 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9e98f0f9-2eea-4727-9314-88bbde116912)
+
 
 <pre></pre>
 ### Q1. What are the 'returned' insights in Madhya Pradesh?
