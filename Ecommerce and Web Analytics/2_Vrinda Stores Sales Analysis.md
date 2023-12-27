@@ -103,14 +103,15 @@ DIVIDE(
 ### Dashboard 
 
 
-![Vrinda_Stores-2023_ggif](https://github.com/pooja614/Data-Analytics/assets/69869583/334d1aaa-4013-4eab-b5d0-f7cd41e882bc)
 
-
+![Vrinda_Store_up](https://github.com/pooja614/Data-Analytics/assets/69869583/87071666-2433-470e-9035-28f68356b394)
 
 ### Sales Insights
 
 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/2821ca3c-a16c-4d07-8409-0f726797379e)
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/755a9e55-d23b-4fe2-ad1e-79d37c2dbd5c)
+
 
 <pre></pre>
 ### Sales Trends 
@@ -120,19 +121,21 @@ DIVIDE(
 
 <pre></pre>
 ### Q1. What are the 'returned' insights in Madhya Pradesh?
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/fd72dc4c-4b61-42e3-80ee-0819bfc54331)
 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/3b4a66c3-2c6c-4d0b-b498-98efa9756b01)
 
 
 <pre></pre>
 ### Q2. How are sales of 'Sarees' and 'Top' in Amazon?  
 ##### Saree Sales
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/6b81a268-7543-436d-b407-db15b669c7c0) 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/6ef1cff1-a209-48fd-b2d0-ff0c00a0de57)
 
 ##### Top Sales 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/3ed6b368-49c2-4380-bd9c-694379f093bb)
 
 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/5cedb9e4-44db-4518-a648-99e472f35de7)
 
 
 <pre></pre>
