@@ -125,27 +125,35 @@ Tooltips and filters are used.
 The below slides are the non-interactive version of the Interactive PowerBI Dashboard. 
 ### Geography and Market Sales Analysis
 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c9e06b66-4171-4131-9414-3fbae701ebc6)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/36dbe808-fdfe-463a-a920-72b29f8156b0)
+
 <pre></pre>
 ### Customer Insights
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/405082fe-16a1-4cb6-a50e-c4d9384146d0)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/73e9eeeb-ce48-4ded-9c60-7a5030cac315)
+
+
 <pre></pre>
 ### Yearly Sales 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/45a9b730-3927-4199-8fce-3e315d227ec0)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9f6e1cd3-ba1f-4cb8-9e15-2b34fde23568)
+
 
 <pre></pre>
 ### Order Timing Trends by Category
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/1a0b3f22-47bd-4467-8049-2c6ab2ea964d)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/44e8be35-14f7-4361-9b1d-624b44b3a176)
+
 <pre></pre>
 ### Loss Sales Analysis
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/31c50df7-28a1-4fc0-842c-4f71a3703733)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e79e370d-7eac-4c9a-a0c8-358edd518af9)
+
 <pre></pre>
 ### Payment Analysis
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/bec23c38-3cef-4e27-a7be-b65643b1faa3)
 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/f7d788b3-4d15-4088-95de-3ea75d31764d)
+
 <pre></pre>
 ### Shipment and Delivery Insights 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e152fb08-cc92-48ef-af56-debe53672f8c)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/b8b52fcb-47a0-440e-86ee-e2fb6ddd1462)
+
 
 <pre></pre>
 
