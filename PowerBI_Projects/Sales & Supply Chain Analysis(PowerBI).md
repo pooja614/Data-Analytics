@@ -5,9 +5,9 @@ The project aim is to transform raw data of DataCo Global into professional-qual
 The project has explored KPIs and major insights across geography, customer segments, product performances, order timings, losses, payments, delivery and shipping domain.
 
 
-                        
+                          ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/508ba4eb-4d88-4fcd-b6eb-9f69af413da7)
 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/f610f483-3f8b-467d-8918-1b7c07e6604a)
+
 
 
 
