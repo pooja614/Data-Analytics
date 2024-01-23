@@ -7,7 +7,8 @@ The project has explored KPIs and major insights across geography, customer segm
 
                         
 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/98ef2f00-0499-41fa-99c1-57dc860ea9c0)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/f610f483-3f8b-467d-8918-1b7c07e6604a)
+
 
 
 ## Descriptive analytics
