@@ -1,6 +1,10 @@
-# Supply Chain Analysis 
+# Sales and Supply Chain Analysis 
 
-Supply chain analysis is the process of evaluating every stage of a supply chain starting from the time the business acquires raw materials or supplies from its suppliers, to the delivery of final products to the customers. 
+The project aim is to transform raw data of DataCo Global into professional-quality reports and dashboard to track KPIs, compare regional performance, analyze product-level trends, and identify high-value customers.
+
+The project has explored KPIs and major insights across geography, customer segments, product performances, order timings, losses, payments, delivery and shipping domain.
+
+
                         
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/98ef2f00-0499-41fa-99c1-57dc860ea9c0)
@@ -121,43 +125,36 @@ Tooltips and filters are used.
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9c64a7f5-0f22-4bcc-98ac-ce595106f575)
 
+## Wire Frame Design 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/6d40f9d0-03ec-492a-9494-776378e04f0d)
 
 
 ## Visualizations 
-The below slides are the non-interactive version of the Interactive PowerBI Dashboard. 
-### Geography and Market Sales Analysis
-
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/36dbe808-fdfe-463a-a920-72b29f8156b0)
-
-<pre></pre>
-### Customer Insights
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/73e9eeeb-ce48-4ded-9c60-7a5030cac315)
-
-
-<pre></pre>
-### Yearly Sales 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9f6e1cd3-ba1f-4cb8-9e15-2b34fde23568)
+Following Insights are developed: 
+#### Executive Dashboard
+#### Geographical Insights
+#### Customer Analysis
+#### Product Analysis and Price Adjustments 
+#### Order Time Analysis
+#### Loss Insights
+#### Payment Analysis
+#### Shipment and Delivery Insights 
 
 
-<pre></pre>
-### Order Timing Trends by Category
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/44e8be35-14f7-4361-9b1d-624b44b3a176)
-
-<pre></pre>
-### Loss Sales Analysis
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e79e370d-7eac-4c9a-a0c8-358edd518af9)
-
-<pre></pre>
-### Payment Analysis
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/bec23c38-3cef-4e27-a7be-b65643b1faa3)
-
-
-<pre></pre>
-### Shipment and Delivery Insights 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/b8b52fcb-47a0-440e-86ee-e2fb6ddd1462)
-
-
-<pre></pre>
+<pre></pre> 
+#### Major concepts applied in this project include: 
+* Data modelling
+* star schema
+* DAX
+* dashboard design framework
+* Cards & KPIs
+* Line charts, trend lines & forecasts
+* Table & matrix visuals, Conditional formatting, Top N filtering
+* Map visuals, drill through features
+* Report slicers & interactions
+* Bookmarks & page navigation
+* Numeric & fields parameters
+* Custom tooltips etc.
 
 ### Conclusion 
 <pre>
@@ -165,7 +162,4 @@ The below slides are the non-interactive version of the Interactive PowerBI Dash
 </pre>
 
 ![image](https://github.com/pooja614/PowerBI_Projects_/assets/69869583/7269b782-9f44-4ef2-9402-c4c7a98e61b5)
-<pre>
-This is non-interactive version of the interactive PowerBI dashboard. Sample insights are presented through the slide. 
-Detailed insights and findings can be obtained by applying interactions. 
-</pre>
+
