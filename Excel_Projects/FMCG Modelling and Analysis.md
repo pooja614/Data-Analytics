@@ -38,7 +38,7 @@ Top clients for the chosen brand, size and package frequency is analyzed.
 
 </pre>
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/30912a81-88f2-4986-bf76-2dfaf994144a)
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/fad6efd3-e492-43a1-b6fd-458d054f8a4f)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/20121d20-3a87-4768-979b-dad6d1808313)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/dcccd463-db29-41be-a08e-b06ad0b56055)
 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/dd73c4a4-4c2e-49fe-a7b4-9306f80c29d3)
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/ca78f8c1-0614-4416-9134-3420f34d72b5)
