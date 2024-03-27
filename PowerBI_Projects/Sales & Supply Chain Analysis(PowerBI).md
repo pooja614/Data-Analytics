@@ -1,11 +1,14 @@
 # Sales and Supply Chain Analysis 
 
-The project aim is to transform raw data of DataCo Global into professional-quality reports and dashboard to track KPIs, compare regional performance, analyze product-level trends, and identify high-value customers.
-
-The project has explored KPIs and major insights across geography, customer segments, product performances, order timings, losses, payments, delivery and shipping domain.
+#### Comprehensive dashboard to analyze supply chain data of the company DataCo Global. 
 
 
-  ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/508ba4eb-4d88-4fcd-b6eb-9f69af413da7)
+
+  ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/508ba4eb-4d88-4fcd-b6eb-9f69af413da7) 
+
+* The project aim is to transform raw data of DataCo Global into professional-quality reports and dashboard to track KPIs, compare regional performance, analyze product-level trends, and identify high-value customers.
+* The project has explored KPIs and major insights across geography, customer segments, product performances, order timings, losses, payments, delivery and shipping domain. 
+
 
 
 
@@ -127,19 +130,15 @@ Tooltips and filters are used.
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9c64a7f5-0f22-4bcc-98ac-ce595106f575)
 
 ## Wire Frame Design 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/6d40f9d0-03ec-492a-9494-776378e04f0d)
+![Slide7](https://github.com/pooja614/Data-Analytics/assets/69869583/7f0c3f87-56d2-47e3-ba95-9a172d8c0630) 
+
+
 
 
 ## Visualizations 
 Following Insights are developed: 
-#### Executive Dashboard
-#### Geographical Insights
-#### Customer Analysis
-#### Product Analysis and Price Adjustments 
-#### Order Time Analysis
-#### Loss Insights
-#### Payment Analysis
-#### Shipment and Delivery Insights 
+![Slide8](https://github.com/pooja614/Data-Analytics/assets/69869583/ec87b46b-1a3b-4066-b231-3d78bb20900c)
+
 
 
 <pre></pre> 
@@ -157,6 +156,9 @@ Following Insights are developed:
 * Numeric & fields parameters
 * Custom tooltips etc.
 
+#### Live Dashboard  
+(Second project in the link) 
+<a href = "https://pooja614.github.io/PoojaAnalyst.github.io/projects.html">Live Dashboard</a> 
 ### Conclusion 
 <pre>
  Thus these insights can be used for taking business decisions.
