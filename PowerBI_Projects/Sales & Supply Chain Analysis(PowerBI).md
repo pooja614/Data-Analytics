@@ -161,7 +161,7 @@ Following Insights are developed:
 <a href = "https://pooja614.github.io/PoojaAnalyst.github.io/projects.html">Live Dashboard</a> 
 ### Conclusion 
 <pre>
- Thus these insights can be used for taking business decisions.
+ Thus these insights can be used for taking informed business decisions.
 </pre>
 
 ![image](https://github.com/pooja614/PowerBI_Projects_/assets/69869583/7269b782-9f44-4ef2-9402-c4c7a98e61b5)
