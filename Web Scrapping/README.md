@@ -3,11 +3,11 @@
 # Web Scrapping
 This section focuses on scrapping magicbrick.com a property website. 
 
-1. Introduction
+##### 1. Introduction
    1.1 Aim
-2. Methodology
-   2.1 Approach
-   2.2 Experimentation 
+##### 2. Methodology
+   2.1 Approach<br>
+   2.2 Experimentation <br>
 
 ## Introduction 
 Web scraping is the process of extracting data from websites by directly access the World Wide Web using the Hypertext Transfer Protocol or a web browser. 
