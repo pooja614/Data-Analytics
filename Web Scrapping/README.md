@@ -3,9 +3,9 @@
 # Web Scrapping
 This section focuses on scrapping magicbrick.com a property website. 
 
-##### 1. Introduction
-   1.1 Aim
-##### 2. Methodology
+<b>1. Introduction</b> <br>
+   1.1 Aim <br>
+<b>2. Methodology</b> <br>
    2.1 Approach<br>
    2.2 Experimentation <br>
 
