@@ -5,9 +5,9 @@ This section focuses on scrapping magicbrick.com a property website.
 
 <pre>
 <b>1. Introduction</b> 
-   1.1 Aim <br>
+   1.1 Aim 
 <b>2. Methodology</b> 
-   2.1 Approach<br>
+   2.1 Approach
    2.2 Experimentation 
 </pre> 
 
