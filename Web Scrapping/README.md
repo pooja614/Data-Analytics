@@ -80,23 +80,39 @@ We have applied the following filters on the website.
 
 
 #### 3.1.5 Extract Data and Store in Dataframe 
-*  The following steps are applied to get the data in required format. 
+*  The following steps are applied to get the data in required format.
+   
    ##### Creating the DataFrame Header
+   <pre>
+   <b>Algorithm </b>
+   Function Create_dataframe():
+         url    <-- URL of the webpage
+         result <-- send get request to the webpage and return status code
+         doc    <-- Create object of Beautiful Soup and parse the html file
+         info   <-- Get values inside class 'mb-srp__card__info'            # Get relevant classes
+         price_info <--  Get values inside class 'mb-srp__card__estimate'
+         item_dictionary <-- {} # initialize
+         For i in fields:       # Assign fields as keys and assign NONE 
+            item_dictionary[i] <-- None
+
+   </pre>
+            
    * Extract values by class name
   ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c31e5e0b-eeaa-4c59-a0a7-c141a32d2f00)
 
 
-   * Get the labels for dataframe header
-    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/1f34ef36-8811-4a3e-9e84-7ce9760f6f91)
+   * Get the labels for dataframe header 
+   ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/7d5c8dc8-e14e-4306-8c63-a6e6f9aeed8e)
 
-   ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/3a8cc485-ca55-4f43-ba53-7923def5c022)
    * Extracted fields
-     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/a89c0c4c-c28a-4c49-949b-afca5de2a99a)
+     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4e6e9fb6-8f5c-4364-8ea3-78f33aec888b)
+
      <br>
    * Dataframe Header:
-     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c9d206b9-d260-4955-88d7-a4cacad2cf63)
+     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/994a03db-ebe2-466a-a7ce-b8ad2ac2e475)
+
    * <b>Combined Function:</b>
-   ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4d672be0-e70a-48fb-96ff-19a20edfab5c)
+   
      
   ##### Append the Dataframe with Values
   Steps in the Code:
