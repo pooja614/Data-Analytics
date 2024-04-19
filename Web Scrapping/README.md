@@ -1,18 +1,44 @@
 # Web Scrapping and Data Cleaning with Python 
 
-# Web Scrapping
-This section focuses on scrapping magicbrick.com a property website for Bangalore property sales. 
+
+This project focuses on scrapping magicbrick.com a property website for Bangalore property sales and data cleaning of the generated data.  
+Sections: 
+I. Web Scrapping
+II. Data Cleaning
 
 <pre>
-<b>1. Introduction</b> 
+<b>I. Web Scrapping</b>
+<b>1. Introduction to Webscrapping</b> 
    1.1 Aim 
 <b>2. Technology Used</b>
 <b>3. Methodology</b> 
    3.1 Approach
-   3.2 Experimentation 
-</pre> 
+      3.1.1 Indentify the Pages
+      3.1.2 Navigation Path 
+      3.1.3 Relevant Tags 
+      3.1.4 Pass Contents of Each Page and Parse
+      3.1.5 Extract Data and Store in Dataframe 
+<b>4. Webscrapping Result</b> 
 
-## 1. Introduction 
+<b>II. Data Cleaning</b> 
+<b>1. Introduction to Data Cleaning</b> 
+   1.1 Aim
+<b>2. Technology Used</b> 
+<b>3. Approach</b>
+   3.1 Understanding the data
+   3.2 Removing initial text
+   3.3 Removing Alphabets 
+   3.4 Creating New Features
+      3.4.1 Extract BHK information
+      3.4.2 Extract type of flat and location 
+      3.4.3 Extract floor number and total floors 
+   3.5 Replace empty strings with 0 
+   3.6 Change the data type
+<b></b>
+</pre>  
+
+
+## 1. Introduction to Webscrapping
 
 Web scraping is the process of extracting data from websites by directly access the World Wide Web using the Hypertext Transfer Protocol or a web browser. 
 It is a form of copying in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.
@@ -116,23 +142,27 @@ We have applied the following filters on the website.
 
      <br>
    * Dataframe Header:
+   * Function Create_dataframe() gives the following dataframe. 
      ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/994a03db-ebe2-466a-a7ce-b8ad2ac2e475)
 
-   * <b>Combined Function:</b>
+
    
      
   ##### Append the Dataframe with Values
-  Steps in the Code:
+Below is the algorithm of the code to scrape, extract features and append to dataframe. 
 <pre>
-  df, fields <-- Call Create_dataframe():
-         url    <-- URL of the webpage
-         result <-- send get request to the webpage and return status code
-         doc    <-- Create object of Beautiful Soup and parse the html file
-         info   <-- Get values inside div class 'mb-srp__card__info'  # Get relevant classes
-         price_info <--  Get values inside div class 'mb-srp__card__estimate'
-         item_dictionary <-- {} # initialize
+  df, fields <-- Call Create_dataframe() 
+  for i <-- 0 to 4:           # Loop 4 pages 
+      page_number <-- i       # Assign i 
+      correction <-- 30 * page_number   # Each page has 30 values, correction for dataframe index
+      url    <-- URL of the webpage
+      result <-- send get request to the webpage and return status code
+      doc    <-- Create object of Beautiful Soup and parse the html file
+      info   <-- Get values inside div class 'mb-srp__card__info'  # Get relevant classes
+      price_info <--  Get values inside div class 'mb-srp__card__estimate'
+      item_dictionary <-- {} # initialize
          # Different properties have different features. Thus initialize to NONE
-         For i in fields:       # Assign fields as keys and assign NONE 
+         for i in fields:       # Assign fields as keys and assign NONE 
             item_dictionary[i] <-- None
 
          # Loop to extract relevant features
@@ -167,4 +197,28 @@ We have applied the following filters on the website.
 
             df at location (i + correction) <-- final_dict 
             
-   </pre>
+   </pre> 
+
+ ## Result
+ * The dataframe generated: 
+ ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/ddb0e458-c99d-493b-95c8-a1b5a521cdb5)
+
+ * Overview:
+   ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/6725e35b-648a-4905-b68a-608b764c0d0f)
+
+<b>II. Data Cleaning</b> 
+<b>1. Introduction to Data Cleaning</b> 
+   1.1 Aim
+<b>2. Technology Used</b> 
+<b>3. Approach</b>
+   3.1 Understanding the data
+   3.2 Removing initial text
+   3.3 Removing Alphabets 
+   3.4 Creating New Features
+      3.4.1 Extract BHK information
+      3.4.2 Extract type of flat and location 
+      3.4.3 Extract floor number and total floors 
+   3.5 Replace empty strings with 0 
+   3.6 Change the data type
+<b></b> 
+
