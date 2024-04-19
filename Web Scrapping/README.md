@@ -45,16 +45,16 @@ We have applied the following filters on the website.
 
 
 #### 3.1.2 Navigation Path 
-* The website appeears to have <b>infinite scrolling</b> pattern.
-* But upon trying to scrape it using selenium webdriver it is found to have different pages.
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/7d3c3297-3efb-4c0b-95d8-0cf2a4fd64a8)
+   * The website appeears to have <b>infinite scrolling</b> pattern.
+   * But upon trying to scrape it using selenium webdriver it is found to have different pages.
+   ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/7d3c3297-3efb-4c0b-95d8-0cf2a4fd64a8)
 
-* Thus website is investigated for pages and following url is constructed.
-  <pre> https://www.magicbricks.com/low-budget-flats-for-sale-in-bangalore-pppfs/page-1 </pre>
-  ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/30957ff1-c46e-4e53-b90c-05de8464403c)
+   * Thus website is investigated for pages and following url is constructed.
+     <pre> https://www.magicbricks.com/low-budget-flats-for-sale-in-bangalore-pppfs/page-1 </pre>
+     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/30957ff1-c46e-4e53-b90c-05de8464403c)
 
 #### 3.1.3 Relevant Tags 
-* Information to be scrapped from the site:
+   * Information to be scrapped from the site:
    * We are collecting the following information:
    * Title, Society Name, Price, Price per sqft 
      ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c3275cf4-4c70-45b3-826a-3317b0ef6585)
@@ -62,11 +62,44 @@ We have applied the following filters on the website.
    * Carpet Area, Status, Floor, Transaction, Furnishing, Facing, Overlooking, Ownership, Bathroom, 
      Balcony
 
-  ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/030446a9-e676-4857-926a-d131ebf2a60e)
+     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/030446a9-e676-4857-926a-d131ebf2a60e)
 
-  ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/90bb1749-e364-437d-a684-070c26ddbdb5)
+     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/90bb1749-e364-437d-a684-070c26ddbdb5)
 
 </pre>
 
 #### 3.1.4 Pass Contents of Each Page and Parse 
+   * Set up the url and send request to the web page
+   * Relevant tags are extracted by class value 
+   ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/b6b453ad-a7f2-480b-9b84-ac6a8a44401f)
+* Parsed Document
 
+  ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/125fd56e-2ac4-4997-99f5-a413f8ec329e)
+
+  
+
+
+#### 3.1.5 Extract Data and Store in Dataframe 
+*  The following steps are applied to get the data in required format. 
+   ##### Creating the DataFrame Header
+   * Extract values by class name
+  ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c31e5e0b-eeaa-4c59-a0a7-c141a32d2f00)
+
+
+   * Get the labels for dataframe header
+    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/1f34ef36-8811-4a3e-9e84-7ce9760f6f91)
+
+   ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/3a8cc485-ca55-4f43-ba53-7923def5c022)
+   * Extracted fields
+     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/a89c0c4c-c28a-4c49-949b-afca5de2a99a)
+     <br>
+   * Dataframe Header:
+     ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c9d206b9-d260-4955-88d7-a4cacad2cf63)
+   * <b>Combined Function:</b>
+   ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4d672be0-e70a-48fb-96ff-19a20edfab5c)
+     
+  ##### Append the Dataframe with Values
+  Steps in the Code:
+  1. Create Dataframe
+  2. Loop through 4 pages through urls
+  3.    Assign 
