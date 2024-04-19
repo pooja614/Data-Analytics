@@ -208,17 +208,28 @@ Below is the algorithm of the code to scrape, extract features and append to dat
 
 <b>II. Data Cleaning</b> 
 <b>1. Introduction to Data Cleaning</b> 
-   1.1 Aim
-<b>2. Technology Used</b> 
-<b>3. Approach</b>
+<b>2. Techniques Used</b> 
+<b>3. Steps Performed </b>
    3.1 Understanding the data
-   3.2 Removing initial text
-   3.3 Removing Alphabets 
+   3.2 Fixing Structural Errors
+      3.2.1 Removing initial text
+      3.2.2 Removing Alphabets 
    3.4 Creating New Features
       3.4.1 Extract BHK information
       3.4.2 Extract type of flat and location 
       3.4.3 Extract floor number and total floors 
-   3.5 Replace empty strings with 0 
-   3.6 Change the data type
+   3.5 Handling missing data
+   3.6 Removal of Unwanted Observaations
 <b></b> 
+# Data Cleaning 
+## 1. Introduction to Data Cleaning 
+Data Cleaning is the process of pre processing the data by removing or modifying the data that is incorrect, incomplete, duplicated etc. The goal of data cleaning is to ensure that the data is accurate, consistent, and free of errors, as inconsistent data can negatively impact the performance. 
+## 2. Techniques Used
+For this dataset, we have extensively used <b>regex</b> as textual data is preprocessed, new features are created and further converted to relevant data types. 
+## 3. Steps Performed 
+#### 3.1 Understanding the Data
+
+
+
+
 
