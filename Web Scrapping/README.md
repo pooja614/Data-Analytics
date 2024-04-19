@@ -89,12 +89,45 @@ We have applied the following filters on the website.
          url    <-- URL of the webpage
          result <-- send get request to the webpage and return status code
          doc    <-- Create object of Beautiful Soup and parse the html file
-         info   <-- Get values inside class 'mb-srp__card__info'            # Get relevant classes
-         price_info <--  Get values inside class 'mb-srp__card__estimate'
+         info   <-- Get values inside div class 'mb-srp__card__info'  # Get relevant classes
+         price_info <--  Get values inside div class 'mb-srp__card__estimate'
          item_dictionary <-- {} # initialize
+         # Different properties have different features. Thus initialize to NONE
          For i in fields:       # Assign fields as keys and assign NONE 
             item_dictionary[i] <-- None
 
+         # Loop to extract relevant features
+         for i <-- 0 to length of info:
+            val_dict   <-- {} 
+            title      <-- Extract text from info[i] by h2 class "mb-srp__card--title"
+            society_name <-- Extract div class "mb-srp__card__society" from info[i]
+            if society_name is not None:
+               society_name <-- Extract text from society_name
+            Price       <-- Extract text from info[i] by div class "mb-srp__card__price--amount" 
+            Price_Per_sqft <-- Extract div class "mb-srp__card__society" from info[i] 
+            if Price_Per_sqft is not None:
+               Price_Per_sqft <-- Extract text from Price_Per_sqft 
+
+            # Add values to dictionary
+            val_dict['title'] <-- title                  
+            val_dict['Society_Name'] <-- society_name
+            val_dict['Price'] <-- Price
+            val_dict['Price_Per_sqft'] <-- Price_Per_sqft
+
+            item_dict <-- item_dictionary             # Assign initiated dictionary
+
+            # Extract labels and respective values 
+            labels <-- Extract div class "mb-srp__card__summary--label" from info[i] 
+            values <-- Extract div class "mb-srp__card__summary--value" from info[i]
+             
+            # Add values to relevant keys 
+            for j <-- 0 to length of labels:
+               item_dict[Extract text from labels[j]] <-- Extract text from values[j]
+            
+            final_dict = val_dict OR item_dict     # Combine both the dictionaries 
+
+            df at location (i + correction) <-- final_dict 
+            
    </pre>
             
    * Extract values by class name
@@ -116,6 +149,48 @@ We have applied the following filters on the website.
      
   ##### Append the Dataframe with Values
   Steps in the Code:
-  1. Create Dataframe
-  2. Loop through 4 pages through urls
-  3.    Assign 
+<pre>
+  df, fields <-- Call Create_dataframe():
+         url    <-- URL of the webpage
+         result <-- send get request to the webpage and return status code
+         doc    <-- Create object of Beautiful Soup and parse the html file
+         info   <-- Get values inside div class 'mb-srp__card__info'  # Get relevant classes
+         price_info <--  Get values inside div class 'mb-srp__card__estimate'
+         item_dictionary <-- {} # initialize
+         # Different properties have different features. Thus initialize to NONE
+         For i in fields:       # Assign fields as keys and assign NONE 
+            item_dictionary[i] <-- None
+
+         # Loop to extract relevant features
+         for i <-- 0 to length of info:
+            val_dict   <-- {} 
+            title      <-- Extract text from info[i] by h2 class "mb-srp__card--title"
+            society_name <-- Extract div class "mb-srp__card__society" from info[i]
+            if society_name is not None:
+               society_name <-- Extract text from society_name
+            Price       <-- Extract text from info[i] by div class "mb-srp__card__price--amount" 
+            Price_Per_sqft <-- Extract div class "mb-srp__card__society" from info[i] 
+            if Price_Per_sqft is not None:
+               Price_Per_sqft <-- Extract text from Price_Per_sqft 
+
+            # Add values to dictionary
+            val_dict['title'] <-- title                  
+            val_dict['Society_Name'] <-- society_name
+            val_dict['Price'] <-- Price
+            val_dict['Price_Per_sqft'] <-- Price_Per_sqft
+
+            item_dict <-- item_dictionary             # Assign initiated dictionary
+
+            # Extract labels and respective values 
+            labels <-- Extract div class "mb-srp__card__summary--label" from info[i] 
+            values <-- Extract div class "mb-srp__card__summary--value" from info[i]
+             
+            # Add values to relevant keys 
+            for j <-- 0 to length of labels:
+               item_dict[Extract text from labels[j]] <-- Extract text from values[j]
+            
+            final_dict = val_dict OR item_dict     # Combine both the dictionaries 
+
+            df at location (i + correction) <-- final_dict 
+            
+   </pre>
