@@ -20,12 +20,13 @@ It is a form of copying in which specific data is gathered and copied from the w
 ### 1.1 Aim 
 Scrape the required data from the website and conduct data cleaning tasks. 
 ## 2. Technology Used
+<pre>
 1. <b>Python:</b> Python programming language is used for webscrapping task.
 2. <b>Beautiful Soup:</b> Python package for parsing HTML and XML documents. It represents parsed data as tree which can be searched and iterated to extract data.
 3. <b>Requests Module</b>: It allows to send HTTP requests using python. THe HTTP request returns a response object.
 4. <b> Pandas:</b>It is an open source data analysis and manipulation tool. It has functions for analyzing, cleaning, exploring, and manipulating data. 
 5. <b>Selenium:</b> Selenium is partially used for experimentation but later beautiful soup is used due to structure of this website. 
-
+</pre>
 ## 3. Methodology
 Our goal is to assemble data from the site into one concise CSV, housing all the required information. 
 
