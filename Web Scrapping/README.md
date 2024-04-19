@@ -26,6 +26,7 @@ II. Data Cleaning
 <b>2. Technology Used</b> 
 <b>3. Approach</b>
    3.1 Understanding the data
+   
    3.2 Removing initial text
    3.3 Removing Alphabets 
    3.4 Creating New Features
@@ -213,8 +214,9 @@ Below is the algorithm of the code to scrape, extract features and append to dat
    3.1 Understanding the data
    3.2 Removal of Unwanted Observations
    3.3 Fixing Structural Errors
-      3.3.1 Removing initial text
-      3.3.2 Removing Alphabets 
+      3.3.1 Add units to headers
+      3.3.2 Removing initial text
+      3.3.3 Removing Alphabets 
    3.4 Creating New Features
       3.4.1 Extract BHK information
       3.4.2 Extract type of flat and location 
@@ -253,7 +255,8 @@ For this dataset, we have extensively used <b>regex</b> as textual data is prepr
     'Super Area':'Super Area(sqft)'
     }) 
 </pre> 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/226a4047-fdba-4453-91f4-cb209403600f)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/775d921d-f911-4732-8f29-89f621c54945)
+
 
 
 ##### 3.3.2 Removing Initial Text
