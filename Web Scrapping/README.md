@@ -211,15 +211,16 @@ Below is the algorithm of the code to scrape, extract features and append to dat
 <b>2. Techniques Used</b> 
 <b>3. Steps Performed </b>
    3.1 Understanding the data
-   3.2 Fixing Structural Errors
-      3.2.1 Removing initial text
-      3.2.2 Removing Alphabets 
+   3.2 Removal of Unwanted Observations
+   3.3 Fixing Structural Errors
+      3.3.1 Removing initial text
+      3.3.2 Removing Alphabets 
    3.4 Creating New Features
       3.4.1 Extract BHK information
       3.4.2 Extract type of flat and location 
       3.4.3 Extract floor number and total floors 
    3.5 Handling missing data
-   3.6 Removal of Unwanted Observaations
+   3.6 
 <b></b> 
 # Data Cleaning 
 ## 1. Introduction to Data Cleaning 
@@ -227,7 +228,40 @@ Data Cleaning is the process of pre processing the data by removing or modifying
 ## 2. Techniques Used
 For this dataset, we have extensively used <b>regex</b> as textual data is preprocessed, new features are created and further converted to relevant data types. 
 ## 3. Steps Performed 
-#### 3.1 Understanding the Data
+#### 3.1 Understanding the Data  
+* The dataframe 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/80bd9787-01b7-498b-af79-8431f34dea5f)
+* About the data
+  ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/1e3fc7d5-a242-4910-8bbe-7d1658652c1b)
+* 120 entries are present. 
+* Most of the features are in object format.
+* There are 15 features.
+#### 3.2  Removal of Unwanted Observations
+* Check for duplicates:
+  ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/f2c62cf0-837d-4fe8-ac0e-867249b82b8e) 
+* Remove duplicates
+  <pre>df = df.drop_duplicates()</pre> 
+  
+#### 3.3 Fixing Structural Errors
+
+##### 3.3.1 Add units to headers 
+<pre>
+   df = df.rename(columns = {
+    'Price':'Price(Lac)',
+    'Price_Per_sqft':'Price_Per_sqft(rs)', 
+    'Carpet Area':'Carpet Area(sqft)',
+    'Super Area':'Super Area(sqft)'
+    }) 
+</pre> 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/226a4047-fdba-4453-91f4-cb209403600f)
+
+
+##### 3.3.2 Removing Initial Text
+
+##### 3.3.3 Removing Alphabets
+  
+
+
 
 
 
