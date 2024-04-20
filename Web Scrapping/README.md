@@ -207,6 +207,7 @@ Below is the algorithm of the code to scrape, extract features and append to dat
  * Overview:
    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/6725e35b-648a-4905-b68a-608b764c0d0f)
 
+<pre> 
 <b>II. Data Cleaning</b> 
 <b>1. Introduction to Data Cleaning</b> 
 <b>2. Techniques Used</b> 
@@ -215,15 +216,16 @@ Below is the algorithm of the code to scrape, extract features and append to dat
    3.2 Removal of Unwanted Observations
    3.3 Fixing Structural Errors
       3.3.1 Add units to headers
-      3.3.2 Removing initial text
+      3.3.2 Removing text and symbols
       3.3.3 Removing Alphabets 
    3.4 Creating New Features
       3.4.1 Extract BHK information
       3.4.2 Extract type of flat and location 
       3.4.3 Extract floor number and total floors 
    3.5 Handling missing data
-   3.6 
-<b></b> 
+<b>4. Finalized Dataframe</b>
+   </pre> 
+
 # Data Cleaning 
 ## 1. Introduction to Data Cleaning 
 Data Cleaning is the process of pre processing the data by removing or modifying the data that is incorrect, incomplete, duplicated etc. The goal of data cleaning is to ensure that the data is accurate, consistent, and free of errors, as inconsistent data can negatively impact the performance. 
@@ -259,14 +261,125 @@ For this dataset, we have extensively used <b>regex</b> as textual data is prepr
 
 
 
-##### 3.3.2 Removing Initial Text
+##### 3.3.2 Removing Text and Symbols 
+<pre>
+   def remove_initial_text(text):
+    txt = text[1:]         
+    return txt 
+</pre> 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/881ed9c7-c0f4-4cc2-80e3-fc369c6e8cc6)
+* Rupee symbol is removed. 
 
 ##### 3.3.3 Removing Alphabets
+  <pre>
+     def remove_alphabets(text):
+    """
+        Used to remove units present in the values
+    """
+         return re.sub(r"[A-Za-z\t]", '', text) 
+  </pre>               
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/1d71320f-39b9-4ed8-8b4b-8a4d4de882ae)
+
+#### 3.4 Creating New Features
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4dc1bf1a-58b4-4956-93bf-725fc2fb752e)
+
+* Title column is used to generate new features : BHK, Type of Floor, Location.
+* Floor column is used to generate floor related features.
+##### 3.4.1 Extract BHK information
+<pre>
+   def extract_bhk(text):
+       txt = re.findall(r'[0-9] BHK',text)
+       if(len(txt)) > 0:
+           return txt[0]
+       else:
+           return None 
+df['BHK'] = df['title'].apply(lambda x: extract_bhk(str(x)))
+</pre>
+ ##### 3.4.2 Extract type of flat and location  
+ <pre>
+   def extract_type_loc(text):
+       bhk_removed = re.sub(r'[[^[0-9] BHK ]*','', text)
+       type_, location = re.split(' for Sale in ',bhk_removed)
+       return type_, location 
+
+   type_li = []
+   location_li = []
+   for i in type_loc:
+       type_li.append(i[0])
+       location_li.append(i[1])
+       
+df['Type'] = type_li 
+df['Location'] = location_li
+ </pre> 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/b7ac3611-dec8-4506-8bf5-f09f5b06dbc7)
+
+
+ ##### 3.4.3 Extract floor number and total floors
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/8dbd5cde-e1db-4065-b77a-d1983cadb6de)
+* We split the string at "out of" and create 2 features.
+  <pre>
+     c = df['Floor'].apply(lambda x: re.split(' out of ', str(x)))
+  </pre>
   
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/8ad4fd71-4d8c-41fe-a3aa-26c173c43e79)
+* We found that there are values which do not have floor values.
+* Try and except is employed to handle exception.
+<pre>
+   def floor_split(text):
+    floor_features = re.split(' out of ',text)
+    return floor_features
+    
+floor_features = df['Floor'].apply(lambda x: floor_split(str(x))) 
+      
+available_floor, total_floors = [],[]
+for i in floor_features:
+    try:
+        available_floor.append(i[0])
+    except:
+        available_floor.append(None)
+    try:    
+        total_floors.append(i[1])
+    except:
+        total_floors.append(None)
+    
+df['Floor_Available']  =   available_floor 
+df['Total Floors in Building']  = total_floors  
+</pre>
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/814bece1-4f28-4226-a5ce-912bcea39201)
 
+* Drop the unwanted columns (title, floor).
+#### 3.5 Handling missing data and conversion
+* There are empty string in the columns. It is difficult to change to int etc format with empty string.
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4d4f680a-c9e5-4c62-a1e8-092cc447ed16)
 
+* Extract empty string and impute it to 0.
+<pre>
+indx2 = df[df['Price_Per_sqft(rs)'] == ''].index 
+for i in indx2:
+    df.loc[i, 'Price_Per_sqft(rs)'] = 0
+</pre> 
+* Different columns are checked for empty strings and modified.
+* The string data is finally converted to int/float data type wherever required.
+<pre>
+   def str_to_int(column):
+    try:
+        df[column] = df[column].astype(int)
+    except:
+        pass 
+</pre> 
+<pre>
+df['Price(Lac)'] = df['Price(Lac)'].astype(float)
+df['Price_Per_sqft(rs)'] = df['Price_Per_sqft(rs)'].astype(float)   
+df['Bathroom'] = df['Bathroom'].astype(int)
+df['Carpet Area(sqft)'] = df['Carpet Area(sqft)'].astype(float)  
+</pre>
 
+## 4. Finalized DataFrame 
+* Thus we have a clean data with multiple features.
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/52ee4835-1515-4c72-a0e8-6eb65b522df6)
 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/afd698b8-486b-408a-9e49-08cd85344b37)
 
-
-
+## Conclusion
+Thus webscrapping and data cleaning has benn achieved. 
