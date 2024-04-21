@@ -16,7 +16,7 @@ These tools offer functionalities for data manipulation, transformation, and val
 * <b>Ethical Considerations:</b> Ethical considerations are paramount when scraping data from websites or online platforms. It's essential to respect the terms of service, privacy policies, and copyright regulations of the websites being scraped and to handle sensitive or personal information responsibly. 
 
 This project focuses on scrapping magicbrick.com a property website for Bangalore property sales and data cleaning of the generated data.  
-Sections: <b>
+Sections: <br>
 <b> I. Web Scrapping </b> <br>
 <b> II. Data Cleaning </b>
 
@@ -72,14 +72,14 @@ Scrapping Affordable Flats for Sale in Bangalore from magicbricks.com and conduc
 Our goal is to assemble data from the site into one concise CSV, housing all the required information. 
 
 ### 3.1 Approach 
-<Pre>
+<pre>
 1. Identify the page(s) with the information we want and review the source code.
 2. Outline a path for navigating the pages.
 3. Indentify relevant tags 
 4. Pass the content of each page to Beautiful Soup to parse.
 5. Extract data in a systemic way and store as dataframe
 6. Save to csv file
-</Pre>
+</pre>
 #### 3.1.1 Indentify the Pages:  
 We have applied the following filters on the website. 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/fc6e0657-1771-4053-8bc8-41d82f1fe0d6)  
@@ -124,6 +124,7 @@ We have applied the following filters on the website.
 *  The following steps are applied to get the data in required format.
    
    ##### Creating the DataFrame Header
+   
    <pre>
    <b>Algorithm </b>
    Function Create_dataframe():
@@ -221,24 +222,7 @@ Below is the algorithm of the code to scrape, extract features and append to dat
  * Overview:
    ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/6725e35b-648a-4905-b68a-608b764c0d0f)
 
-<pre> 
-<b>II. Data Cleaning</b> 
-<b>1. Introduction to Data Cleaning</b> 
-<b>2. Techniques Used</b> 
-<b>3. Steps Performed </b>
-   3.1 Understanding the data
-   3.2 Removal of Unwanted Observations
-   3.3 Fixing Structural Errors
-      3.3.1 Add units to headers
-      3.3.2 Removing text and symbols
-      3.3.3 Removing Alphabets 
-   3.4 Creating New Features
-      3.4.1 Extract BHK information
-      3.4.2 Extract type of flat and location 
-      3.4.3 Extract floor number and total floors 
-   3.5 Handling missing data
-<b>4. Finalized Dataframe</b>
-   </pre> 
+
 
 # Data Cleaning  
 
