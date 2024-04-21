@@ -18,25 +18,27 @@ II. Data Cleaning
       3.1.3 Relevant Tags 
       3.1.4 Pass Contents of Each Page and Parse
       3.1.5 Extract Data and Store in Dataframe 
-<b>4. Webscrapping Result</b> 
+<b>4. Webscrapping Result</b>  
+</pre>   
 
+<pre> 
 <b>II. Data Cleaning</b> 
 <b>1. Introduction to Data Cleaning</b> 
-   1.1 Aim
-<b>2. Technology Used</b> 
-<b>3. Approach</b>
+<b>2. Techniques Used</b> 
+<b>3. Steps Performed </b>
    3.1 Understanding the data
-   
-   3.2 Removing initial text
-   3.3 Removing Alphabets 
+   3.2 Removal of Unwanted Observations
+   3.3 Fixing Structural Errors
+      3.3.1 Add units to headers
+      3.3.2 Removing text and symbols
+      3.3.3 Removing Alphabets 
    3.4 Creating New Features
       3.4.1 Extract BHK information
       3.4.2 Extract type of flat and location 
       3.4.3 Extract floor number and total floors 
-   3.5 Replace empty strings with 0 
-   3.6 Change the data type
-<b></b>
-</pre>  
+   3.5 Handling missing data
+<b>4. Finalized Dataframe</b>
+   </pre> 
 
 
 ## 1. Introduction to Webscrapping
@@ -226,7 +228,26 @@ Below is the algorithm of the code to scrape, extract features and append to dat
 <b>4. Finalized Dataframe</b>
    </pre> 
 
-# Data Cleaning 
+# Data Cleaning  
+
+<pre> 
+<b>1. Introduction to Data Cleaning</b> 
+<b>2. Techniques Used</b> 
+<b>3. Steps Performed </b>
+   3.1 Understanding the data
+   3.2 Removal of Unwanted Observations
+   3.3 Fixing Structural Errors
+      3.3.1 Add units to headers
+      3.3.2 Removing text and symbols
+      3.3.3 Removing Alphabets 
+   3.4 Creating New Features
+      3.4.1 Extract BHK information
+      3.4.2 Extract type of flat and location 
+      3.4.3 Extract floor number and total floors 
+   3.5 Handling missing data
+<b>4. Finalized Dataframe</b>
+   </pre>  
+   
 ## 1. Introduction to Data Cleaning 
 Data Cleaning is the process of pre processing the data by removing or modifying the data that is incorrect, incomplete, duplicated etc. The goal of data cleaning is to ensure that the data is accurate, consistent, and free of errors, as inconsistent data can negatively impact the performance. 
 ## 2. Techniques Used
@@ -382,4 +403,4 @@ df['Carpet Area(sqft)'] = df['Carpet Area(sqft)'].astype(float)
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/afd698b8-486b-408a-9e49-08cd85344b37)
 
 ## Conclusion
-Thus webscrapping and data cleaning has benn achieved. 
+Thus webscrapping has been achieved on the magicbrick.com website and data cleaning is performed. Preprocessed dataset is aquired by this process. 
