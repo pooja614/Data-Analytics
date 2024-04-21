@@ -59,7 +59,7 @@ Web scraping is the process of extracting data from websites by directly access 
 It is a form of copying in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.
 
 ### 1.1 Aim 
-Scrape the required data from the website and conduct data cleaning tasks. 
+Scrapping Affordable Flats for Sale in Bangalore from magicbricks.com and conduct data cleaning tasks. 
 ## 2. Technology Used
 
 1. <b>Python:</b> Python programming language is used for webscrapping task.
