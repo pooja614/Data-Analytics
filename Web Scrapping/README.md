@@ -17,7 +17,7 @@ These tools offer functionalities for data manipulation, transformation, and val
 
 This project focuses on scrapping magicbrick.com a property website for Bangalore property sales and data cleaning of the generated data.  
 Sections: <b>
-<b> I. Web Scrapping </b>
+<b> I. Web Scrapping </b> <br>
 <b> II. Data Cleaning </b>
 
 <pre>
