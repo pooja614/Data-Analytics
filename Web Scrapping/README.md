@@ -415,5 +415,6 @@ df['Carpet Area(sqft)'] = df['Carpet Area(sqft)'].astype(float)
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/afd698b8-486b-408a-9e49-08cd85344b37)
 
 ## Conclusion
+
 Thus webscrapping has been achieved on the magicbrick.com website and data cleaning is performed. Preprocessed dataset is acquired by this process. 
 In conclusion, web scraping and data cleaning are indispensable components of the data lifecycle, enabling organizations and researchers to harness the power of online data while ensuring its integrity and reliability for informed decision-making and analysis.
