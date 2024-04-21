@@ -18,10 +18,7 @@ II. Data Cleaning
       3.1.3 Relevant Tags 
       3.1.4 Pass Contents of Each Page and Parse
       3.1.5 Extract Data and Store in Dataframe 
-<b>4. Webscrapping Result</b>  
-</pre>   
-
-<pre> 
+<b>4. Webscrapping Result</b>   
 <b>II. Data Cleaning</b> 
 <b>1. Introduction to Data Cleaning</b> 
 <b>2. Techniques Used</b> 
