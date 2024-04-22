@@ -8,9 +8,10 @@
 3. Statistical Analysis
    3.1 Assumption of Regression
 
-     3.11 Multicollinearity
-     3.12 Variable transformation
-     3.13 Linearity
+     3.1.1 Multicollinearity
+     3.1.2 Normality
+     3.1.3 Variable transformation
+     3.1.4 Linearity
    3.2 Handling Categorical Variables
      3.2.1 Analyzing categorical variables
      3.2.2 Onehot encoding
@@ -32,17 +33,16 @@ This step is crucial for ensuring data cleanliness and compatibility with machin
 Conducted basic exploratory data analysis to verify the required preprocessing steps have effectively prepared the dataset for further analysis.  
 ## 3. Statistical Analysis 
 ### 3.1 Assumption of Regression
-"""
+<Pre>
 1. Choose the variables/regressors to focus on (here all may be, leave the correlated column)
 2. (you can delete less than 5% values from a dataset if it has null values)
 Assumption 1: Linearity (make data linear)
-3.Check for linearity using scatter plot
+3.Check for linearity using scatter plot                               
 Assumption 2: No endogenity (find correaltion of residuals with individual x) - not now
 Assumption 3: Normality and homodescadasticity(assumed to hold after transformation)(Normality assumed for big sample)
 Assumption 4: autocorrelation
 Assumption 5: Multicollinearity: We have obsserved and removed
-"""
-Analyzing numeric data involves examining numerical variables to uncover patterns, trends, and relationships within the dataset.
+</Pre>
 ##### 3.1.1 Multicollinearity 
 Multicollinearity occurs when two or more independent variables in a regression model are highly correlated, leading to instability and unreliable estimates of the coefficients. 
 
@@ -53,5 +53,15 @@ Multicollinearity occurs when two or more independent variables in a regression 
 * There are features not correlated with price
 * <b>Remove wheelbase and remove city mpg as one of the correlated feature is sufficient to give information to the model.</b>
   
+##### 3.1.2 Normality
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/97138a49-3ab7-4587-b5da-b9bce115616e) 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/aedb41d5-037c-482d-a5e7-f30b1eebde5d)
 
+Skewness: 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e5650922-c208-4b91-a883-e87a395f7e16)
+* Lets consider -1 to +1 skewness as acceptable range
+* Anything above -1 and +1 is transformed. Positively skewed data: engine size, compressionratio, horsepower.
+* Variable transformation is applied to 3 variables. 
+##### 3.1.3 Variable transformation 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/ff82f8dd-6af4-447d-91fa-07151b08670e)
 
