@@ -53,7 +53,8 @@ Multicollinearity occurs when two or more independent variables in a regression 
 * There are features not correlated with price
 * <b>Remove wheelbase and remove city mpg as one of the correlated feature is sufficient to give information to the model.</b>
   
-##### 3.1.2 Normality
+##### 3.1.2 Normality 
+Normality refers to the characteristic of a dataset or distribution where the data points follow a bell-shaped curve or Gaussian distribution, exhibiting symmetry around a central value.
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/97138a49-3ab7-4587-b5da-b9bce115616e) 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/aedb41d5-037c-482d-a5e7-f30b1eebde5d)
 
@@ -62,6 +63,15 @@ Skewness:
 * Lets consider -1 to +1 skewness as acceptable range
 * Anything above -1 and +1 is transformed. Positively skewed data: engine size, compressionratio, horsepower.
 * Variable transformation is applied to 3 variables. 
-##### 3.1.3 Variable transformation 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/ff82f8dd-6af4-447d-91fa-07151b08670e)
+##### 3.1.3 Variable transformation  
+
+* Variable transformation involves altering the scale or distribution of variables in a dataset to meet the assumptions of statistical tests or improve model performance.
+* This process can include logarithmic, exponential, or power transformations to normalize skewed data or stabilize variance. 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/ff82f8dd-6af4-447d-91fa-07151b08670e) 
+
+* Log transformation is applied.
+##### 3.1.4 Linearity  
+Linearity refers to the relationship between independent and dependent variables in a regression model, where the relationship can be represented by a straight line. Assessing linearity is crucial for ensuring the validity of regression analysis. 
+
+Uncorrelated features w.r.to "price" are removed.
 
