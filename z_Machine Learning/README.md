@@ -74,7 +74,8 @@ Skewness:
 Linearity refers to the relationship between independent and dependent variables in a regression model, where the relationship can be represented by a straight line. Assessing linearity is crucial for ensuring the validity of regression analysis. 
 
 Uncorrelated features w.r.to "price" are removed.
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/bbc38c01-09c3-4f0d-9464-72d7f5633cf2) 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/bbc38c01-09c3-4f0d-9464-72d7f5633cf2)  
+<br>
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/3db792dd-dbae-441f-93c2-e7b5b83242d6)
 
 * Non correlated features are removed.
