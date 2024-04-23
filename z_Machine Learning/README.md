@@ -18,6 +18,10 @@
    4.1  Preperation for Modelling
       4.1.1 Train-test-split
       4.1.2 Standardization 
+   4.2 Experimentation and Evaluation
+      4.2.1 Models for experiment
+      4.2.2 Experimentation
+      
    
 # Car Price Prediction 
 
@@ -117,7 +121,7 @@ Handling categorical variables involves converting qualitative data into a forma
 
 ## 4. Modelling 
 
-### 4.1  Preperation for Modelling
+### 4.1  Preparation for Modelling
 
 #### 4.1.1 Train-test-split 
 * After the encoding we split the data into train set and test set. 
@@ -131,15 +135,15 @@ Handling categorical variables involves converting qualitative data into a forma
 
 <b>Linear Regression:</b> <br> 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/0c22483e-d66d-469c-859f-4c097725d467) 
-<a href="https://en.wikipedia.org/wiki/Linear_regression">image-link</a>
+
 
 * Linear regression is a fundamental statistical technique used to model the relationship between one or more independent variables (predictors) and a continuous dependent variable (response).
 * It assumes a linear relationship between the predictors and the response variable, where the relationship is modeled using a straight line.
 * The goal of linear regression is to find the "best-fit" line that minimizes the sum of the squared differences between the observed and predicted values of the response variable.
   
 <b>Ridge Regression:</b> <Br>
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/db501f66-7d0e-4372-8736-818d923a7bf5) 
-<a href = "https://www.mql5.com/en/articles/11735">image-link</a>
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/db501f66-7d0e-4372-8736-818d923a7bf5)  
+
 
 * Ridge regression is a regularization technique used to mitigate multicollinearity and overfitting in linear regression models.
 * It adds a penalty term to the ordinary least squares (OLS) objective function, which penalizes large coefficients and encourages smaller coefficients.
@@ -155,10 +159,13 @@ Handling categorical variables involves converting qualitative data into a forma
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/03c4fd0f-b1ee-46c5-836c-d6dadd6bdc7f)
 ##### Model selection
 * Created function to train, test, evaluate the models and return the test results in the form of a dataframe.
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/cf6b0799-f850-459a-a6c9-4c57500bb65e)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/99432469-0bcb-4006-b109-05a75df11246)
+
+
 ##### Result 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/67287043-60c7-493a-ab29-94706a27f823)
 
+### 4.3 Feature Selection
 f_regression:
 F_regression is primarily used in the context of linear regression models.
 It assesses the significance of individual features in explaining the variance of the target variable.
