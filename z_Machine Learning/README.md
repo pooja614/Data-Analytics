@@ -1,29 +1,33 @@
-### Report 
-
-1. Introduction
+### Report  
+# Car Price Prediction 
+<pre>
+<b>1. Introduction</b>
    1.1 Objective
-2. Preprocessing
+<b>2. Preprocessing </b>
    2.1 Dataset
    2.2 Data Exploration and Preprocessing
-3. Statistical Analysis
-   3.1 Assumption of Regression
+<b>3. Statistical Analysis</b>
+  <b> 3.1 Assumption of Regression</b>
      3.1.1 Multicollinearity
      3.1.2 Normality
      3.1.3 Variable transformation
      3.1.4 Linearity
-   3.2 Handling Categorical Variables
+   <b>3.2 Handling Categorical Variables</b>
      3.2.1 Analyzing categorical variables
      3.2.2 Encoding
-4. Modelling
-   4.1  Preperation for Modelling
+<b>4. Modelling</b>
+  <b> 4.1  Preperation for Modelling</b>
       4.1.1 Train-test-split
       4.1.2 Standardization 
-   4.2 Experimentation and Evaluation
+   <b>4.2 Experimentation and Evaluation</b>
       4.2.1 Models for experiment
       4.2.2 Experimentation
-      
-   
-# Car Price Prediction 
+  <b> 4.3 Feature Selection</b>
+      4.3.1 F_regression
+      4.3.2 Model after feature selection 
+  </pre>  
+  
+
 
 ## 1. Introduction
 In today's automotive market, the ability to accurately predict car prices is invaluable for both consumers and industry professionals. Whether buying, selling, or simply evaluating market trends, having reliable price predictions can facilitate informed decision-making and optimize financial outcomes. <br> 
@@ -165,14 +169,28 @@ Handling categorical variables involves converting qualitative data into a forma
 ##### Result 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/67287043-60c7-493a-ab29-94706a27f823)
 
-### 4.3 Feature Selection
-f_regression:
-F_regression is primarily used in the context of linear regression models.
-It assesses the significance of individual features in explaining the variance of the target variable.
-F_regression computes the F-statistic and p-values for each feature, indicating the strength of the linear relationship between each feature and the target variable.
-This technique is suitable when the relationship between the features and the target variable is assumed to be linear, and the goal is to select the most relevant features for a linear regression model.
+### 4.3 Feature Selection 
 
+The choice of feature selection method depends on various factors such as the nature of the data, the specific problem at hand, and the goals of the analysis.
+#### 4.3.1 F_regression:
+* F_regression is primarily used in the context of linear regression models.
+* It assesses the significance of individual features in explaining the variance of the target variable.
+* F_regression computes the F-statistic and p-values for each feature, indicating the strength of the linear relationship between each feature and the target variable.
+* This technique is suitable when the relationship between the features and the target variable is assumed to be linear, and the goal is to select the most relevant features for a linear regression model.
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/1b0f8468-e694-4e73-a2b3-dc41382b2e66)
 
+* Important features:<br>
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/a8b9e430-cf3a-4474-bd2e-b1f97fdab6d2)
+
+#### 4.3.2 Model After feature selection 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/1ef157ec-7e89-40c6-b253-9556c83d1007) 
+train and test data of selected features is used for modelling. 
+##### Result
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/d7aaf93d-6191-427b-be31-19d65ff12756)
+* Linear Regression and Lasso Regression has performed well
+* More data will give better model.
+##### References:
+https://machinelearningmastery.com/feature-selection-for-regression-data/
 
 
 
