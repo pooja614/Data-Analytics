@@ -1,6 +1,6 @@
 
 ### Report
-# Web Scrapping and Data Cleaning with Python 
+# Web Scrapping and Data Cleaning with Python  
 
 
 Web scraping and data cleaning are essential processes in extracting and preparing data for analysis, modeling, and insights generation.
