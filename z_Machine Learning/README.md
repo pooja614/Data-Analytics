@@ -14,7 +14,9 @@
      3.1.4 Linearity
    3.2 Handling Categorical Variables
      3.2.1 Analyzing categorical variables
-     3.2.2 Onehot encoding
+     3.2.2 Encoding
+4. Modelling
+   
    
 # Car Price Prediction 
 
@@ -80,5 +82,42 @@ Uncorrelated features w.r.to "price" are removed.
 
 * Non correlated features are removed.
 
-### 3.2 Handling Categorical Variables
+### 3.2 Handling Categorical Variables 
+Handling categorical variables involves converting qualitative data into a format suitable for analysis, often through encoding techniques or transformation into numerical values. <br>
+<b>Understand Categorical Variables:</b> 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/69e148ee-1dd2-44fd-8b63-37a77c235378)
+<b>Remove Carname and ID: </b>
+<pre>df = df.drop(['car_ID', 'CarName'], axis=1)</pre> 
+<b>Get Unique Values: </b>
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/ad1a2628-55d4-4bf6-aecb-6d28f1823a29)
+<b>Change cylinder number to numeric:</b>
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/ad99664e-838b-45d8-8b87-4e02d48eb31e)
+
+##### 3.2.1 Analyse categorical variables
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/6e04ac7d-dca3-48cb-b647-d122cab59184)
+* Doornumber is not significant for determining price
+* 3 variables is label encoded: Enginelocation, aspiration,fueltype
+* Remaining 4 is onehot encoded. 
+
+##### Encoding 
+
+<b>Label Encoding:</b> Label encoding is a technique used to convert categorical variables into numerical format by assigning a unique numerical label to each category. 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/a3d74c47-454e-474b-847e-012aa370a4e6)
+
+
+<b>One-Hot Encoding:</b> One-hot encoding is a technique used to convert categorical variables into a binary format, creating new binary columns for each category present in the original variable. 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/b77954ec-15cb-4f3c-a43b-c1f108aaf1d2)
+
+
+Finalized Data: 
+
+
+
+
+
+
+
+
 
