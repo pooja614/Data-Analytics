@@ -78,9 +78,11 @@ Linearity refers to the relationship between independent and dependent variables
 Uncorrelated features w.r.to "price" are removed.
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/bbc38c01-09c3-4f0d-9464-72d7f5633cf2)  
 <br>
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/3db792dd-dbae-441f-93c2-e7b5b83242d6)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/382aee6a-465b-481f-91ae-b05735632b30)
 
-* Non correlated features are removed.
+
+* Uncorrelated features are: 
+<pre>['symboling', 'carheight', 'stroke', 'compressionratio', 'peakrpm'] </pre>
 
 ### 3.2 Handling Categorical Variables 
 Handling categorical variables involves converting qualitative data into a format suitable for analysis, often through encoding techniques or transformation into numerical values. <br>
