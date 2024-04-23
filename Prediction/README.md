@@ -40,8 +40,10 @@ We aim to create a predictive model that can provide reliable estimates of car p
 
 ## 2. Preprocessing   
 This step is crucial for ensuring data cleanliness and compatibility with machine learning algorithms. 
-### 2.1 Dataset 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/df8d8bea-05b2-4f6b-9adc-f3f38a08ec4b) 
+### 2.1 Dataset  
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/d6112964-8df8-449a-848b-20f13a66d393)
+
+
 ### 2.2 Data Exploration and Preprocessing 
 Conducted basic exploratory data analysis to verify the required preprocessing steps have effectively prepared the dataset for further analysis.  
 ## 3. Statistical Analysis 
