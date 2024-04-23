@@ -25,6 +25,8 @@
   <b> 4.3 Feature Selection</b>
       4.3.1 F_regression
       4.3.2 Model after feature selection 
+<b>5. Conclusion </b>
+   
   </pre>  
   
 
@@ -189,6 +191,11 @@ train and test data of selected features is used for modelling.
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/d7aaf93d-6191-427b-be31-19d65ff12756)
 * Linear Regression and Lasso Regression has performed well
 * More data will give better model.
+
+## Conclusion 
+* The car price prediction project leveraged various regression techniques and data preprocessing methods to develop a robust model for estimating car prices. Through extensive exploration, analysis, and feature engineering, we identified key variables influencing car prices.
+* Additionally incorporating additional features or exploring advanced modeling techniques may further enhance the model's performance and expand its applicability in real-world scenarios
+* The car price prediction model holds significant practical value for consumers, dealerships, and the automotive industry, empowering stakeholders with informed pricing strategies, market insights, and decision-making support.
 ##### References:
 https://machinelearningmastery.com/feature-selection-for-regression-data/
 
