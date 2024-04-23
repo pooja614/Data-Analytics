@@ -56,7 +56,9 @@ Multicollinearity occurs when two or more independent variables in a regression 
 * <b>Remove wheelbase and remove city mpg as one of the correlated feature is sufficient to give information to the model.</b>
   
 ##### 3.1.2 Normality 
-Normality refers to the characteristic of a dataset or distribution where the data points follow a bell-shaped curve or Gaussian distribution, exhibiting symmetry around a central value.
+Normality refers to the characteristic of a dataset or distribution where the data points follow a bell-shaped curve or Gaussian distribution, exhibiting symmetry around a central value. 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/3fd4b056-9c93-4c5f-b01b-70c684a2ee1e)
+
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/97138a49-3ab7-4587-b5da-b9bce115616e) 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/aedb41d5-037c-482d-a5e7-f30b1eebde5d)
 
