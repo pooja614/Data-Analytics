@@ -7,7 +7,6 @@
    2.2 Data Exploration and Preprocessing
 3. Statistical Analysis
    3.1 Assumption of Regression
-
      3.1.1 Multicollinearity
      3.1.2 Normality
      3.1.3 Variable transformation
@@ -16,7 +15,9 @@
      3.2.1 Analyzing categorical variables
      3.2.2 Encoding
 4. Modelling
-   
+   4.1  Preperation for Modelling
+      4.1.1 Train-test-split
+      4.1.2 Standardization 
    
 # Car Price Prediction 
 
@@ -45,7 +46,7 @@ Assumption 3: Normality and homodescadasticity(assumed to hold after transformat
 Assumption 4: autocorrelation
 Assumption 5: Multicollinearity: We have obsserved and removed
 </Pre>
-##### 3.1.1 Multicollinearity 
+#### 3.1.1 Multicollinearity 
 Multicollinearity occurs when two or more independent variables in a regression model are highly correlated, leading to instability and unreliable estimates of the coefficients. 
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e99a11f8-ce34-43a8-ab9f-c929db6d68c4)
@@ -55,7 +56,7 @@ Multicollinearity occurs when two or more independent variables in a regression 
 * There are features not correlated with price
 * <b>Remove wheelbase and remove city mpg as one of the correlated feature is sufficient to give information to the model.</b>
   
-##### 3.1.2 Normality 
+#### 3.1.2 Normality 
 Normality refers to the characteristic of a dataset or distribution where the data points follow a bell-shaped curve or Gaussian distribution, exhibiting symmetry around a central value. 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/3fd4b056-9c93-4c5f-b01b-70c684a2ee1e)
 
@@ -67,14 +68,14 @@ Skewness:
 * Lets consider -1 to +1 skewness as acceptable range
 * Anything above -1 and +1 is transformed. Positively skewed data: engine size, compressionratio, horsepower.
 * Variable transformation is applied to 3 variables. 
-##### 3.1.3 Variable transformation  
+#### 3.1.3 Variable transformation  
 
 * Variable transformation involves altering the scale or distribution of variables in a dataset to meet the assumptions of statistical tests or improve model performance.
 * This process can include logarithmic, exponential, or power transformations to normalize skewed data or stabilize variance. 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/ff82f8dd-6af4-447d-91fa-07151b08670e) 
 
 * Log transformation is applied.
-##### 3.1.4 Linearity  
+#### 3.1.4 Linearity  
 Linearity refers to the relationship between independent and dependent variables in a regression model, where the relationship can be represented by a straight line. Assessing linearity is crucial for ensuring the validity of regression analysis. 
 
 Uncorrelated features w.r.to "price" are removed.
@@ -97,7 +98,7 @@ Handling categorical variables involves converting qualitative data into a forma
 <b>Change cylinder number to numeric:</b>
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/ad99664e-838b-45d8-8b87-4e02d48eb31e)
 
-##### 3.2.1 Analyse categorical variables
+#### 3.2.1 Analyse categorical variables
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/6e04ac7d-dca3-48cb-b647-d122cab59184)
 * Doornumber is not significant for determining price
@@ -111,13 +112,58 @@ Handling categorical variables involves converting qualitative data into a forma
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/a3d74c47-454e-474b-847e-012aa370a4e6)
 
 
-<b>One-Hot Encoding:</b> One-hot encoding is a technique used to convert categorical variables into a binary format, creating new binary columns for each category present in the original variable. 
+<b>One-Hot Encoding:</b> One-hot encoding is a technique used to convert categorical variables into a binary format, creating new binary columns for each category present in the original variable and returns a sparse matrix.
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/b77954ec-15cb-4f3c-a43b-c1f108aaf1d2)
 
+## 4. Modelling 
 
-Finalized Data: 
+### 4.1  Preperation for Modelling
 
+#### 4.1.1 Train-test-split 
+* After the encoding we split the data into train set and test set. 
+* We have applied 80-20 rule ie, 80% of data for training and 20% of data for test.  
+#### 4.1.2 Standardization 
+* Standard Scaler function performs Standard Normal Distribution (SND).
+* Z=(x-u) / s where u is the mean of the training samples and s is the standard deviation of the training samples.
 
+### 4.2 Experimentation and Evaluation
+#### 4.2.1 Models for experiment 
+
+<b>Linear Regression:</b> <br> 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/0c22483e-d66d-469c-859f-4c097725d467) 
+<a href="https://en.wikipedia.org/wiki/Linear_regression">image-link</a>
+
+* Linear regression is a fundamental statistical technique used to model the relationship between one or more independent variables (predictors) and a continuous dependent variable (response).
+* It assumes a linear relationship between the predictors and the response variable, where the relationship is modeled using a straight line.
+* The goal of linear regression is to find the "best-fit" line that minimizes the sum of the squared differences between the observed and predicted values of the response variable.
+  
+<b>Ridge Regression:</b> <Br>
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/db501f66-7d0e-4372-8736-818d923a7bf5) 
+<a href = "https://www.mql5.com/en/articles/11735">image-link</a>
+
+* Ridge regression is a regularization technique used to mitigate multicollinearity and overfitting in linear regression models.
+* It adds a penalty term to the ordinary least squares (OLS) objective function, which penalizes large coefficients and encourages smaller coefficients.
+* The penalty term is controlled by a regularization parameter (lambda or alpha), which determines the degree of shrinkage applied to the coefficients.
+
+<b>Lasso Regression:</b>
+* Similar to ridge regression, lasso regression adds a penalty term to the OLS objective function. However, lasso uses the L1 norm of the coefficients as the penalty term.
+* Lasso regression has the property of performing variable selection by shrinking some coefficients to exactly zero, effectively removing irrelevant features from the model.
+* Lasso regression is beneficial when dealing with datasets with a large number of features or when feature selection is desired, as it can automatically select the most important predictors while regularizing the model.
+
+#### 4.2.2 Experimentation  
+##### Create dictionary of Models
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/03c4fd0f-b1ee-46c5-836c-d6dadd6bdc7f)
+##### Model selection
+* Created function to train, test, evaluate the models and return the test results in the form of a dataframe.
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/cf6b0799-f850-459a-a6c9-4c57500bb65e)
+##### Result 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/67287043-60c7-493a-ab29-94706a27f823)
+
+f_regression:
+F_regression is primarily used in the context of linear regression models.
+It assesses the significance of individual features in explaining the variance of the target variable.
+F_regression computes the F-statistic and p-values for each feature, indicating the strength of the linear relationship between each feature and the target variable.
+This technique is suitable when the relationship between the features and the target variable is assumed to be linear, and the goal is to select the most relevant features for a linear regression model.
 
 
 
