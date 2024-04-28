@@ -79,7 +79,7 @@ Its an excitement to explore different patterns of the jobs listing and professi
 * `IT software Application programming` category has 26% of the job profiles followed by 15.6% and 13.5% by `ITES` and `sales` respectively.
 * We also observe that the jobs has been grouped into category with single alphabets representing specific set of jobs like example: A represents Datascience
 * `Q, L, H, R` category finds the least number of jobs.
- 
+### 3.5 Salary Range of Top 20 Frequent Jobs
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/5241c74a-d2e1-4f04-a012-3bb2465df08c)
 * `Developer profiles` have higher packages. 
 * `Managerial` roles also attracts higher salaries. 
