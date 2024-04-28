@@ -75,7 +75,7 @@ Its an excitement to explore different patterns of the jobs listing and professi
 * The plot indicates the percentage plot of top 25 jobs available in different categories.
 * Here we observe that `IT software Application programming` category has highest number of job offering.
 * ITES and sales fall at subsequent positions.
-
+### 3.5 Job categories with more number of jobs
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/173102cc-794b-49ef-9bff-50c1d620b2ae)
 * The above graph represents the overall trends with respect to number of jobs in the category versus job category.
 * `IT software Application programming` category has 26% of the job profiles followed by 15.6% and 13.5% by `ITES` and `sales` respectively.
