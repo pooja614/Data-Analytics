@@ -88,4 +88,52 @@ Its an excitement to explore different patterns of the jobs listing and professi
 
 ## Asking and Answering Questions 
 
-  
+### Q1: What percentage of companies have not disclosed their salary?
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/2178885d-ceb7-4c69-8b76-37115eba352e)
+### Q2: What are the job positions that have highest pay scales? 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/833131ba-4a6f-4e0c-baed-edddcbf086a8)
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/a265b631-c6c4-4baf-b0e1-0efcc4315aa7)
+* Above are the job postions which has highest salary offering.
+* We find that the highest salary is an International package.
+* We find that positions are demanding high level experiences and manegerial and leading roles.
+
+### Q3: What are the different job and number of postings by Capgemini? 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4e05ea66-d30a-4c16-abd2-f40405c27dd7)
+
+### Q4: What is the percentage distribution of different categories in Capgemini? 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/913a5033-28e1-4498-ba5d-4c95454692eb)
+### Q5: What is the percentage distribution of jobs in different cities? 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/87723516-cf43-4022-a7ef-c228732855f2) 
+* Percentage of jobs available in different locations is analyzed.
+* Lowest percentage areas(lesser than 1%) are aggregated and represented in the piechart as All the Rest.
+* Hyderbad, Banglore and Pune has the highest job postings with 13.96%, 13.41%, 12.89% respectively.
+* Navi Mumbai has 0.6%. All the other cities with minimal representations ie All the Rest is 5%.
+### Q6: Which jobs are hot trends in part time and freelancing section? 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/681416e2-0461-4e54-89e1-0b5968ce67d9)
+* <u>Part time and permanent</u> job section is dominated by `teaching` and `sales` jobs followed by  `HR `and `IT-Software Application Programming jobs.` `MEdical jobs` are also preferred.  
+* <u>Full Time, Freelance/Homebased</u> job section  is dominated by `Information Technology (ITES)` jobs, with `sales`, `acoounts` and `journalism` in subsequent positions.
+* <u>Part Time, Freelance/Homebased Part Time, Temporary/Contractual</u> has `ITES`, `sales`, `accounts` and `journalism` as a major playground.
+* <u>Part Time, Temporary/Contractual</u> has `IT-Software Applicatioon Programming`, `Teaching`, `HR`, `Sales` and `Medical` jobs in demand.
+* We also observe that based on nature of the jobs the preference of part time/ freelance etc categorization has been observed.
+### Q7: What is the average salary (in million trends) of different category of jobs considering the lower limit of salary range? 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/95904a58-47a1-404d-a774-d25833ba56b3)
+
+* The graph is the plot of average salary of different category.
+* The T category which majorly consists of directorial and manegerial roles has the highest average salary.
+* IT Software-ERP Medical, S(Dect cadates and security officers), self employed, strategy are other areas with better average salary.
+
+### Q8: What is the average salary in different cities for top 5 job titles? 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/ecc4cfb3-efd6-4250-9bdf-7c76cba6f17d)
+* Java Developer roles has highest average salary in Bangaluru follwed by Pune. 
+* Sales executive has balanced distribution with Bhavnagar, Chennai, Mumbai and subarbs having similar mean. 
+* PHP Developer roles has highest in Delhi NCR. 
+## Analyzing Job Description 
+### Word Cloud 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/d4dc2674-c0d3-4d44-9e7e-208d9e9cbda9)
+* Word cloud gives insights regarding frequent expectation of recruiters and skillsets they are expecting amongst candidates.
+### General Idea and Difference in Job Description of: Business Development Executive, Sales Executive and Business Development Manager 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/27bcd706-99eb-4c19-b5e9-f73e4bd58edf)
