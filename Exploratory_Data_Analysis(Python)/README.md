@@ -16,7 +16,8 @@ Its an excitement to explore different patterns of the jobs listing and professi
 ## Exploratory Analysis and Visualization
 
 ### Job Distribution Along States
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/5dc3c175-cb6a-4f91-9f69-d1f3e6d705f0)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/5dc3c175-cb6a-4f91-9f69-d1f3e6d705f0) 
+
 * Here we observe that 6061 jobs are posted in Maharashtra which is the highest.
 * Madhya pradesh, Karnataka, West Bengal falls at the subsequent positions followed by the rest of the states.
 * Sikkim Chattisgarh, Himachal Pradesh, Jharkhand areas have single job listings.
@@ -58,5 +59,33 @@ Its an excitement to explore different patterns of the jobs listing and professi
 * `Adeeba E-Services Pvt. Ltd ` has posted `1941`job oportunities.
 * `Capgemini Technology Services India Limited` has posted `955` job opportunities follwed by 3 others.
 
+### Job Posting Language 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/af778f94-f60d-4bf4-b3e2-fd66841072c2)
+* The above graph is the plot indicating usage of language in percentage for job listing.
+* Only 0.3% US-English is used.
+
+### Frequency of Posting 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/fcb7ef10-7a11-4e2e-b205-0684c4ac6d60)
+* From above graph we observe that February month has highest calling for jobs and October has the lowest.
+* We observe that certain job posts are available through out the year.
+* We observe that there is increase from the starting of the year, decrease in job posting at the middle from August and finally again at the end it increases. 
+* We have to keep note that data has post dates from February 2019 to May 2020.
+
+### Job Posting frequency of Categories: Sales, IT, Fashion, Hotels 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/7c24b199-a0f0-4b0c-be56-87042f0c2906)
+
+* Sales and IT has similar trends. 
+* There is dip in posting during April, June and September for both sales and IT. 
+* December, January, February appears to be peak time of job posting for sales and IT. 
+* Fashion has declining trend after July. 
+* Hotel job posting has increased trend from October. 
+
+### Types of Jobs Available 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/a33be195-4dd9-470b-a4aa-ec557b8737b8)
+* 99% of jobs are Full Time, Permanent where as 0.037% is Part Time, permanent.
+
+## Asking and Answering Questions 
 
   
