@@ -22,7 +22,7 @@
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e5b91cf7-8877-41ed-abf8-f11477fc2657)
 <pre></pre> 
-#### 4. Trend Analysis 
+#### 4.  
 * Trend analysis reveals patterns and fluctuations in data over time, offering valuable insights for informed decision-making and strategic planning. 
 <pre></pre>
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/3ab05fec-34a4-4daa-bc76-6ddd5dcdecf5)
@@ -31,7 +31,7 @@
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/979e8c1b-d600-4460-8f13-f311240bed8a)
 <pre></pre> 
 
-#### 5. Product Analysis 
+#### 5.  
 Product analysis involves examining various aspects of a product, such as its features, pricing, and market demand, to understand its performance. 
 <pre></pre>
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/0901311a-43ad-4a03-a178-a0b31492b9d4)
