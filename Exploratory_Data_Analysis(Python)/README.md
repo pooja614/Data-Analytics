@@ -105,7 +105,7 @@ Its an excitement to explore different patterns of the jobs listing and professi
 * We observe that there is increase from the starting of the year, decrease in job posting at the middle from August and finally again at the end it increases. 
 * We have to keep note that data has post dates from February 2019 to May 2020.
 
-### 3.Job Posting frequency of Categories: Sales, IT, Fashion, Hotels 
+### 3.9 Job Posting frequency of Categories: Sales, IT, Fashion, Hotels 
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/7c24b199-a0f0-4b0c-be56-87042f0c2906)
 
@@ -115,7 +115,7 @@ Its an excitement to explore different patterns of the jobs listing and professi
 * Fashion has declining trend after July. 
 * Hotel job posting has increased trend from October. 
 
-### Types of Jobs Available 
+### 3.10 Types of Jobs Available 
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/a33be195-4dd9-470b-a4aa-ec557b8737b8)
 * 99% of jobs are Full Time, Permanent where as 0.037% is Part Time, permanent.
