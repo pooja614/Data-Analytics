@@ -2,9 +2,9 @@
 
 #### Contents: 
 <pre>
-1. Aim
-2. About
-3. Exploratory Analysis and Visualization
+1. <b>Aim</b>
+2. <b>About</b>
+3. <b>Exploratory Analysis and Visualization</b>
   3.1 Job Distribution Along States
   3.2 Top Salaries
   3.3 Salary Vs Number of Job offerring Trends
@@ -17,7 +17,7 @@
   3.10 Frequency of Posting
   3.11 Job Posting frequency of Categories: Sales, IT, Fashion, Hotels
   3.12 Types of Jobs Available
-4. Asking and Answering Questions
+4. <b>Asking and Answering Questions</b>
    4.1 What percentage of companies have not disclosed their salary?
    4.2 What are the job positions that have highest pay scales?
    4.3 What are the different job and number of postings by Capgemini?
@@ -26,10 +26,11 @@
    4.6 Which jobs are hot trends in part time and freelancing section?
    4.7 What is the average salary (in million trends) of different category of jobs considering the lower limit of salary range?
    4.8 What is the average salary in different cities for top 5 job titles?
-5. Analyzing Job Description
+5. <b>Analyzing Job Description</b>
    5.1 Word Cloud
-   5.2 General Idea and Difference in Job Description of: Business Development Executive, Sales Executive and Business Development Manager
-6. Conclusion 
+   5.2 General Idea and Difference in Job Description of: Business Development Executive, 
+       Sales Executive and Business Development Manager
+6. <b> Conclusion</b> 
 </pre> 
 
 # Exploratory Data Analysis: Naukri Job Listing 2020 
