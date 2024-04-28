@@ -81,10 +81,10 @@ Its an excitement to explore different patterns of the jobs listing and professi
 * `Q, L, H, R` category finds the least number of jobs.
  
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/5241c74a-d2e1-4f04-a012-3bb2465df08c)
-* Developer profiles have higher packages. 
-* Managerial roles also attracts higher salaries. 
-* Sales executive, Business development executive, Accounts executive, HR executive, marketing executive roles have similar salary spectrum.
-* Java developer salaries fall under higher spectrum.
+* `Developer profiles` have higher packages. 
+* `Managerial` roles also attracts higher salaries. 
+* Sales executive, Business development executive, Accounts executive, HR executive, marketing executive roles have `similar salary spectrum`.
+* `Java developer` salaries fall under higher spectrum.
 ### 3.6 Top 5 Job Offering Companies 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/542001e1-39f2-48e3-9390-d3b75c0f69e6)
 * Above companies are the companies which have posted highest number of job profiles.
@@ -98,7 +98,7 @@ Its an excitement to explore different patterns of the jobs listing and professi
 
 ### 3.8 Frequency of Posting 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/fcb7ef10-7a11-4e2e-b205-0684c4ac6d60)
-* From above graph we observe that February month has highest calling for jobs and October has the lowest.
+* From above graph we observe that `February` month has `highest` calling for jobs and `October` has the lowest.
 * We observe that certain job posts are available through out the year.
 * We observe that there is increase from the starting of the year, decrease in job posting at the middle from August and finally again at the end it increases. 
 * We have to keep note that data has post dates from February 2019 to May 2020.
@@ -141,9 +141,9 @@ Its an excitement to explore different patterns of the jobs listing and professi
 ### 4.5 What is the percentage distribution of jobs in different cities? 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/87723516-cf43-4022-a7ef-c228732855f2) 
 * Percentage of jobs available in different locations is analyzed.
-* Lowest percentage areas(lesser than 1%) are aggregated and represented in the piechart as All the Rest.
-* Hyderbad, Banglore and Pune has the highest job postings with 13.96%, 13.41%, 12.89% respectively.
-* Navi Mumbai has 0.6%. All the other cities with minimal representations ie All the Rest is 5%.
+* `Lowest percentage areas(lesser than 1%)` are aggregated and represented in the piechart as `All the Rest`.
+* `Hyderbad`, `Banglore` and `Pune` has the highest job postings with `13.96%`, `13.41%`, `12.89%` respectively.
+* `Navi Mumbai` has `0.6%`. All the other cities with minimal representations ie `All the Rest is 5%`.
 ### 4.6 Which jobs are hot trends in part time and freelancing section? 
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/681416e2-0461-4e54-89e1-0b5968ce67d9)
