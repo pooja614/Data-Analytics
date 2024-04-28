@@ -1,6 +1,7 @@
 ###  EDA Report 
 
-Contents: 
+#### Contents: 
+<pre>
 1. Aim
 2. About
 3. Exploratory Analysis and Visualization
@@ -26,6 +27,11 @@ Contents:
    4.7 What is the average salary (in million trends) of different category of jobs considering the lower limit of salary range?
    4.8 What is the average salary in different cities for top 5 job titles?
 5. Analyzing Job Description
+   5.1 Word Cloud
+   5.2 General Idea and Difference in Job Description of: Business Development Executive, Sales Executive and Business Development Manager
+6. Conclusion 
+</pre> 
+
 # Exploratory Data Analysis: Naukri Job Listing 2020 
 
 
@@ -152,15 +158,15 @@ Its an excitement to explore different patterns of the jobs listing and professi
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/95904a58-47a1-404d-a774-d25833ba56b3)
 
 * The graph is the plot of average salary of different category.
-* The T category which majorly consists of directorial and manegerial roles has the highest average salary.
-* IT Software-ERP Medical, S(Dect cadates and security officers), self employed, strategy are other areas with better average salary.
+* The `T category` which majorly consists of `directorial and manegerial` roles has the highest average salary.
+* `IT Software-ERP Medical`, `S(Dect cadates and security officers)`, `self employed`, `strategy` are other areas with better average salary.
 
 ### 4.8 What is the average salary in different cities for top 5 job titles? 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/ecc4cfb3-efd6-4250-9bdf-7c76cba6f17d)
 * `Java Developer` roles has highest average salary in `Bangaluru` follwed by Pune. 
 * `Sales executive` has balanced distribution with `Bhavnagar`, `Chennai`, `Mumbai` and `Mumbai Subarbs` having similar mean. 
 * `PHP Developer` roles has highest in Delhi NCR.                                      
-## 5 Analyzing Job Description 
+## 5. Analyzing Job Description 
 ### 5.1 Word Cloud 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/51101e9b-66e9-4c9a-9f79-456901cf98cc)
 
@@ -171,4 +177,7 @@ Its an excitement to explore different patterns of the jobs listing and professi
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/7f034705-2e3e-4c06-b9a5-a487362b8c54) 
 
 * This description analysis helps use to analyze similarities and defferences of skillsets required in executive and managerial.
-* This analysis is useful for young professionals who wish to transition to 
+* This analysis is useful for young professionals who wish to transition to managerial profiles.
+## Conclusion
+* This analysis is helpful for job seekers if done at a larger level and get insights about the jobs in the sites.
+* Combining the analysis of different job offering sites might make results more benificial.
