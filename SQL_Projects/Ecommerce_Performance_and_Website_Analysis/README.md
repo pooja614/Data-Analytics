@@ -23,21 +23,25 @@
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e5b91cf7-8877-41ed-abf8-f11477fc2657)
 <pre></pre> 
 #### 4. Trend Analysis 
-* Trend analysis reveals patterns and fluctuations in data over time, offering valuable insights for informed decision-making and strategic planning.
+* Trend analysis reveals patterns and fluctuations in data over time, offering valuable insights for informed decision-making and strategic planning. 
+<pre></pre>
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/3ab05fec-34a4-4daa-bc76-6ddd5dcdecf5)
 <pre></pre>
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/979e8c1b-d600-4460-8f13-f311240bed8a)
 <pre></pre> 
 
-#### 5. Product Analysis
+#### 5. Product Analysis 
+Product analysis involves examining various aspects of a product, such as its features, pricing, and market demand, to understand its performance. 
+<pre></pre>
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/0901311a-43ad-4a03-a178-a0b31492b9d4)
 <pre></pre> 
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/085799cd-64fd-4bd3-8301-3a211c4503fa)
 <pre></pre>
 #### 6. Product Level Website Analysis  
-* Product-level website analysis focuses on evaluating the performance and usability of individual products within an eCommerce website, aiding in optimization efforts to enhance customer engagement and conversion rates.  
+* Product-level website analysis focuses on evaluating the performance and usability of individual products within an eCommerce website, aiding in optimization efforts to enhance customer engagement and conversion rates.
+<pre></pre>
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/1b068be1-57cc-4e01-8430-3bf360178ae7)
 <pre></pre> 
 
