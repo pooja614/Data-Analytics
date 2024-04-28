@@ -10,13 +10,11 @@
   3.3 Salary Vs Number of Job offerring Trends
   3.4 Job categories with more number of jobs
   3.5 Salary Range of Top 20 Frequent Jobs
-  3.6 Job categories with more number of jobs
-  3.7 Salary Range of Top 20 Frequent Job
-  3.8 Top 5 Job Offering Companies
-  3.9 Job Posting Language
-  3.10 Frequency of Posting
-  3.11 Job Posting frequency of Categories: Sales, IT, Fashion, Hotels
-  3.12 Types of Jobs Available
+  3.6 Top 5 Job Offering Companies
+  3.7 Job Posting Language
+  3.8 Frequency of Posting
+  3.9 Job Posting frequency of Categories: Sales, IT, Fashion, Hotels
+  3.10 Types of Jobs Available
 4. <b>Asking and Answering Questions</b>
    4.1 What percentage of companies have not disclosed their salary?
    4.2 What are the job positions that have highest pay scales?
@@ -81,7 +79,7 @@ Its an excitement to explore different patterns of the jobs listing and professi
 * `IT software Application programming` category has 26% of the job profiles followed by 15.6% and 13.5% by `ITES` and `sales` respectively.
 * We also observe that the jobs has been grouped into category with single alphabets representing specific set of jobs like example: A represents Datascience
 * `Q, L, H, R` category finds the least number of jobs.
-### 3.5 Salary Range of Top 20 Frequent Jobs 
+ 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/5241c74a-d2e1-4f04-a012-3bb2465df08c)
 * Developer profiles have higher packages. 
 * Managerial roles also attracts higher salaries. 
