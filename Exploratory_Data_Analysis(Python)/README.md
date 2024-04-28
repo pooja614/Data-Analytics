@@ -100,9 +100,12 @@ Its an excitement to explore different patterns of the jobs listing and professi
 
 ### Q3: What are the different job and number of postings by Capgemini? 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4e05ea66-d30a-4c16-abd2-f40405c27dd7)
-
+* `Selenum Test Analyst` and Java Developer has high lisitngs in Capgemini.
+* `Software Engineer` has third highest openings.
+* Data related roles like `ETL, Hadoop, INformatica, Plsql` etc fall under middle spectrum. 
 ### Q4: What is the percentage distribution of different categories in Capgemini? 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/913a5033-28e1-4498-ba5d-4c95454692eb)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/913a5033-28e1-4498-ba5d-4c95454692eb)  
+
 ### Q5: What is the percentage distribution of jobs in different cities? 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/87723516-cf43-4022-a7ef-c228732855f2) 
 * Percentage of jobs available in different locations is analyzed.
@@ -127,13 +130,15 @@ Its an excitement to explore different patterns of the jobs listing and professi
 
 ### Q8: What is the average salary in different cities for top 5 job titles? 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/ecc4cfb3-efd6-4250-9bdf-7c76cba6f17d)
-* Java Developer roles has highest average salary in Bangaluru follwed by Pune. 
-* Sales executive has balanced distribution with Bhavnagar, Chennai, Mumbai and subarbs having similar mean. 
-* PHP Developer roles has highest in Delhi NCR. 
+* `Java Developer` roles has highest average salary in `Bangaluru` follwed by Pune. 
+* `Sales executive` has balanced distribution with `Bhavnagar`, `Chennai`, `Mumbai` and `Mumbai Subarbs` having similar mean. 
+* `PHP Developer` roles has highest in Delhi NCR. 
 ## Analyzing Job Description 
 ### Word Cloud 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/d4dc2674-c0d3-4d44-9e7e-208d9e9cbda9)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/51101e9b-66e9-4c9a-9f79-456901cf98cc)
+
 * Word cloud gives insights regarding frequent expectation of recruiters and skillsets they are expecting amongst candidates.
 ### General Idea and Difference in Job Description of: Business Development Executive, Sales Executive and Business Development Manager 
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/27bcd706-99eb-4c19-b5e9-f73e4bd58edf)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/7f034705-2e3e-4c06-b9a5-a487362b8c54)
