@@ -1,8 +1,8 @@
 
 # Medical Tweets Topic Modelling 
 
-
-### View of Tweets Data
+### 1. Understanding the Data
+#### 1.1 View of Tweets Data
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/48e5cfca-159e-4fa4-8562-f89507b4b90c)
 
 * We understand that the data contains tweets in different language.
@@ -10,19 +10,19 @@
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/04eada64-5328-4f94-a16c-19fceeae6cfd)
 
-### Data Preprocessing
+### 2. Data Preprocessing
 
-#### Examine the Language 
+#### 2.1 Examine the Language 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/472cbd7d-8d86-451d-a953-9b7099d450e7)
 
 * Thus as 91% of the data is in English we will ignore other language tweets.
 ##### Assign the Language 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e1a9bec1-fdf3-4485-b91d-6914f374aba4)
 
-#### Remove duplicates 
+#### 2.2 Remove duplicates 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/b446e111-3c48-4f09-874c-ed0b9269e2d5)
 
-#### Visualize the Data 
+#### 2.3 Visualize the Data 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/de37700f-907d-4b2b-afcd-60369bec90a1)
 
 * After visualizing few range of tweets, we observe that same tweets has slightly different url resulting in multiple tweets.
@@ -30,13 +30,47 @@
 * Tweets are repeated,tweets contain emojis,links, hastags, organizations and hastags
 * Thus data need to be preprocessed with careful insights.
 
-##### Important preprocessing steps conducted
+#### Important text preprocessing conducted
 
-* This dataset contains unique url address which is processed.    
+* This dataset contains unique url address which is processed.
+  <pre>
+    def remove_URL(text):
+    """
+        Remove URLs from a sample string
+    """
+        return re.sub(r"https://t.co/([A-Za-z0-9_]+)", '', text)
+
+    df_e['tweet_text'] = df_e['tweet_text'].apply(lambda x:remove_URL(str(x)))
+  </pre>
 * Custom stop word is applied inorder to preserve certain stopwords like 'not'
 * Hastags are preserved in seperate column.
+  <pre>df_e['hashtag'] = df_e['tweet_text'].apply(lambda x:re.findall(r'#(\w+)',str(x)))</pre>
 * Contractions are expanded.
 * Organization named NICE is changed to NIXX inorder to not to effect sentiment analysis if done further.
+  <pre>
+    df_e['tweet_text'] = df_e['tweet_text'].apply(lambda x: re.sub('NICE', 'NXXX',str(x)))
+  </pre>
+  * Convert to lowercase
+  * remove @ mentions
+  
+  * remove special urls and tags
+  
+  * remove url and tags
+  
+  * preserve hastags
+  
+  * remove hash but keep tags
+  df_e['tweet_text'] = df_e['tweet_text'].apply(lambda x: re.sub("[^A-Za-z0-9_]+"," ", x))
+  #remove multiple spaces
+  df_e['tweet_text'] = df_e['tweet_text'].apply(lambda x: " ".join(x.split()))
+  * expand contractions
+  * remove non ascii characters
+  * removing numbers
+  * remove punctuation
+  * remove single character
+  * remove selected stopwords
+  * remove multiple spaces
+  df_e['tweet_text'] = df_e['tweet_text'].apply(lambda x: " ".join(x.split()))
 
 ##### Preprocessed Data 
 Before: 
@@ -63,7 +97,7 @@ After:
 ### Topic Modelling 
 
 #### Latent Dirichlet Allocation[LDA] 
-In natural language processing, Latent Dirichlet Allocation (LDA) is a generative statistical model that explains a set of observations through unobserved groups, and each group explains why some parts of the data are similar. The LDA is an example of a topic model. In this, observations (e.g., words) are collected into documents, and each word's presence is attributable to one of the document's topics. Each document will contain a small number of topics. 
+In natural language processing, Latent Dirichlet Allocation (LDA) is a generative statistical model that explains a set of observations through unobserved groups, and each group explains why some parts of the data are similar. The LDA is an example of a topic model. In this, observations (e.g., words) are collected into documents, and each word's presence is attributable to one of the document's topics. Each document will contain a small number of topics.                         
 ##### Topics generated after applying LDA
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4b889e2f-e94a-4af1-adf0-e0504170ae0b)
 
@@ -96,4 +130,13 @@ The intent of salience is to help identify which words are the most informative 
 #### Dataframe of Topics 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/ebd471fa-ac1f-4adc-a46c-78f8cf77bbbc)
 
-### Select Entity and find tweet & author of that entity. 
+### Finding tweets and author based on entities 
+
+#### Select the required entities 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/d9eb717b-c250-462d-9d3a-a79e67fecf6f)
+
+#### Extract tweets and author 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/b8ff3159-b1f9-4f24-ae5f-f6d057643432)
+
+
