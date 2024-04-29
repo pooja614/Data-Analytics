@@ -5,7 +5,7 @@
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/de6f5820-9992-485d-89e4-b66d91907b16)
 
-### 1. RFM Customer Segmentation and CLV
+##### 1. RFM Customer Segmentation and CLV
 * RFM Customer Segmentation categorizes customers based on Recency, Frequency, and Monetary value.
 * RFM helps identify high-value customers by analyzing their recent purchases, frequency of purchases, and total spending. 
 * RFM segmentation allows businesses to tailor marketing efforts to specific customer segments based on their buying behavior.
@@ -42,7 +42,7 @@
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9f1e3ee7-e827-44bd-9fa3-4c55eb8c96bf)
 
-### 2. Cohort Analysis  
+##### 2. Cohort Analysis  
 
 * Cohort analysis involves grouping customers into cohorts based on shared characteristics or experiences, such as acquisition date or behavior.
 * It helps businesses track and compare the performance of different cohorts over time.
@@ -64,7 +64,7 @@
 
 
 
-## 3. Market Basket Analysis 
+##### 3. Market Basket Analysis 
 
 * Market basket analysis is a data mining technique used to discover associations and relationships between products frequently purchased together.
 * It examines transactional data to identify patterns of co-occurrence, revealing which items tend to be bought together.
