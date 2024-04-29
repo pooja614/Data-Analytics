@@ -55,5 +55,45 @@ After:
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/eeb101ce-1e4e-4d5a-8b23-909b9b079ec4)
 
 #### Visualizing N-grams 
+* 1gram and 2-grams
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e921e9d8-6ffd-4572-b9ad-d60f87eea048)
+* 3 grams and 4grams
+  ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/a0958806-9876-4e0e-8fd2-21eb3b7b0e91)
 
+### Topic Modelling 
+
+#### Latent Dirichlet Allocation[LDA] 
+In natural language processing, Latent Dirichlet Allocation (LDA) is a generative statistical model that explains a set of observations through unobserved groups, and each group explains why some parts of the data are similar. The LDA is an example of a topic model. In this, observations (e.g., words) are collected into documents, and each word's presence is attributable to one of the document's topics. Each document will contain a small number of topics. 
+##### Topics generated after applying LDA
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4b889e2f-e94a-4af1-adf0-e0504170ae0b)
+
+#### Visualize LDA generated Topics 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/acbc6464-1420-41f4-b22b-09409806b7c6)
+The intent of salience is to help identify which words are the most informative words for identifying topics in all the documents. Higher saliency values indicate that a word is more useful for identifying a specific topic. 
+
+#### Coherence Score and Preplexicity 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c2bd0e5f-a6c2-4ab6-84a7-06d616abd7cf)
+
+### Modelling based on BERTopic
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/57380faa-010d-4d4d-ae24-e0d0554f848d) 
+
+#### Barchart of Sample Topics
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/37c5258e-5ce4-42cc-8252-b0733b7005c5)
+
+#### Intertopic Distance Map 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/f87f9e1f-003e-42d8-a1f0-f6834a7a2ee6)
+
+#### Heatmap 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/a75537cb-df8b-4146-a22e-967b14d4eecc)
+
+#### Text based Topic tree 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/05139f5c-f3b7-40d2-8fea-7d50165dab39)
+
+### Assign topics to respective tweets
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/fda6e767-7f08-469b-a638-90de539c7855)
+
+#### Dataframe of Topics 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/ebd471fa-ac1f-4adc-a46c-78f8cf77bbbc)
+
+### Select Entity and find tweet & author of that entity. 
