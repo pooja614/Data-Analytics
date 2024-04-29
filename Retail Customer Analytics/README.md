@@ -1,3 +1,4 @@
+## Custoemr Analytics
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4add2ac9-c32b-48f3-922a-99aff1eff8a5)
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/20b4f4f1-ac46-4f47-87e6-4641ca2f41fe)
@@ -20,5 +21,21 @@
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/738e6d57-551b-4dec-8936-9361f3483518)
 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/d0de1692-40eb-4fee-960f-44cc8770defd)
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/fad90e35-8b90-4e79-8f07-28fb8f57ef1e)
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/d0de1692-40eb-4fee-960f-44cc8770defd) 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/fad90e35-8b90-4e79-8f07-28fb8f57ef1e) 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9f1e3ee7-e827-44bd-9fa3-4c55eb8c96bf)
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/be639a00-46fb-4fe0-8f89-5512ee2ee8e5)
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c7ca00d0-5094-40bb-97be-8ddefe80ce90) 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/f137ca57-9aac-4817-bd8f-3d293676b561)
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/317384a9-a0eb-4127-b574-8028bafb0e37) 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4f923ab4-7b0a-45b2-88a3-68a9a8f0b0ee) 
+
+## Market Basket Analysis
+
