@@ -3,30 +3,30 @@
 
 <pre>
 1.	Understanding the Data
-1.1	View of Tweets Data
+    1.1	View of Tweets Data
 2.	Data Preprocessing
-2.1	Examine the Language
-2.2	Remove duplicates
-2.3	Visualize the Data
-2.4	Important text preprocessing conducted
+    2.1	Examine the Language
+    2.2	Remove duplicates
+    2.3	Visualize the Data
+    2.4	Important text preprocessing conducted
 3.	Exploratory Data Analysis
-3.1	Word Frequency
-3.2	Plotting Word Cloud
-3.3	Visualizing N-grams
+    3.1	Word Frequency
+    3.2	Plotting Word Cloud
+    3.3	Visualizing N-grams
 4.	Topic Modelling
-4.1	Latent Dirichlet Allocation[LDA]
-4.2	Visualize LDA generated Topics
-4.3	Coherence Score and Preplexicity
-4.4	Modelling based on BERTopic
-4.5	Barchart of Sample Topics
-4.6	Intertopic Distance Map
-4.7	Heatmap
-4.8	Text based Topic tree
-4.9	Assign topics to respective tweets
-4.10	Dataframe of Topics
+    4.1	Latent Dirichlet Allocation[LDA]
+    4.2	Visualize LDA generated Topics
+    4.3	Coherence Score and Preplexicity
+    4.4	Modelling based on BERTopic
+    4.5	Barchart of Sample Topics
+    4.6	Intertopic Distance Map
+    4.7	Heatmap
+    4.8	Text based Topic tree
+    4.9	Assign topics to respective tweets
+    4.10 Dataframe of Topics
 5.	Finding tweets and author based on entities
-5.1	Select the required entities
-5.2	Extract tweets and author
+    5.1	Select the required entities
+    5.2	Extract tweets and author
 </pre>
 
 ### 1. Understanding the Data
