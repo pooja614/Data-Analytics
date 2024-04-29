@@ -47,3 +47,13 @@ After:
 
 ### Exploratory Data Analysis
 
+#### Word Frequency 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/11c8e96e-130e-4720-ad46-ddf8f972d6c5)
+
+#### Plotting Word Cloud 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/eeb101ce-1e4e-4d5a-8b23-909b9b079ec4)
+
+#### Visualizing N-grams 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e921e9d8-6ffd-4572-b9ad-d60f87eea048)
+
