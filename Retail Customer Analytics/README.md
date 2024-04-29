@@ -1,5 +1,17 @@
-## Custoemr Analytics
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4add2ac9-c32b-48f3-922a-99aff1eff8a5)
+## Customer Analytics
+
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/de6f5820-9992-485d-89e4-b66d91907b16)
+
+### RFM Customer Segmentation
+* RFM Customer Segmentation categorizes customers based on Recency, Frequency, and Monetary value.
+* RFM helps identify high-value customers by analyzing their recent purchases, frequency of purchases, and total spending. 
+* RFM segmentation allows businesses to tailor marketing efforts to specific customer segments based on their buying behavior.
+### CLV
+* CLV (Customer Lifetime Value) predicts the total revenue a customer will generate over their relationship with a business. 
+* CLV enables businesses to prioritize customer acquisition and retention strategies for maximum profitability. 
+* CLV provides insights into long-term customer profitability, guiding decisions on resource allocation and marketing investments. 
+* CLV helps businesses understand the worth of individual customers, aiding in strategic decision-making and customer relationship management. 
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/20b4f4f1-ac46-4f47-87e6-4641ca2f41fe)
 
@@ -27,6 +39,13 @@
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9f1e3ee7-e827-44bd-9fa3-4c55eb8c96bf)
 
+### Cohort Analysis  
+
+* Cohort analysis involves grouping customers into cohorts based on shared characteristics or experiences, such as acquisition date or behavior.
+* It helps businesses track and compare the performance of different cohorts over time.
+* By analyzing cohort behavior, businesses can identify trends, patterns, and anomalies, allowing for targeted strategies to improve customer retention, acquisition, and overall satisfaction.
+* Cohort analysis provides valuable insights into how changes or interventions affect distinct groups of customers, enabling more informed decision-making and optimization of marketing efforts.
+
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/be639a00-46fb-4fe0-8f89-5512ee2ee8e5)
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c7ca00d0-5094-40bb-97be-8ddefe80ce90) 
@@ -35,7 +54,32 @@
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/317384a9-a0eb-4127-b574-8028bafb0e37) 
 
-![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4f923ab4-7b0a-45b2-88a3-68a9a8f0b0ee) 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/4f923ab4-7b0a-45b2-88a3-68a9a8f0b0ee)  
 
-## Market Basket Analysis
+
+
+
+
+## Market Basket Analysis 
+
+* Market basket analysis is a data mining technique used to discover associations and relationships between products frequently purchased together.
+* It examines transactional data to identify patterns of co-occurrence, revealing which items tend to be bought together.
+* This analysis helps retailers understand customer purchasing behavior and preferences, enabling them to optimize product placement, promotions, and cross-selling strategies.
+* By identifying frequently co-purchased items, businesses can enhance their sales strategies, improve customer satisfaction, and tailor their product offerings to meet customer needs more effectively.
+* Market basket analysis is commonly employed in retail, e-commerce, and other industries to increase revenue and enhance the overall shopping experience.
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9ec68bd5-4328-42de-8dd9-4387dba49e1b) 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c9589b8a-3f7e-4dbe-8fb7-cceb8d5202f9) 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/b3533ec8-a77e-48d4-acc5-1e79a1387551)
+
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/8f116f71-9a55-4b05-ab16-65ebbfba90da)
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/0573009d-bc50-47f4-b35d-ed2a5a9b7e34)
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/5313bc88-e13e-4471-8f98-42f78a38a531)
+
+
 
