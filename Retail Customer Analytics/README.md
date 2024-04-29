@@ -1,3 +1,5 @@
+##### Project Slides
+
 ## Customer Analytics
 
 
@@ -10,7 +12,9 @@
 * CLV (Customer Lifetime Value) predicts the total revenue a customer will generate over their relationship with a business. 
 * CLV enables businesses to prioritize customer acquisition and retention strategies for maximum profitability. 
 * CLV provides insights into long-term customer profitability, guiding decisions on resource allocation and marketing investments. 
-* CLV helps businesses understand the worth of individual customers, aiding in strategic decision-making and customer relationship management. 
+* CLV helps businesses understand the worth of individual customers, aiding in strategic decision-making and customer relationship management.
+<pre> 
+</pre>
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/20b4f4f1-ac46-4f47-87e6-4641ca2f41fe)
 
@@ -44,7 +48,8 @@
 * It helps businesses track and compare the performance of different cohorts over time.
 * By analyzing cohort behavior, businesses can identify trends, patterns, and anomalies, allowing for targeted strategies to improve customer retention, acquisition, and overall satisfaction.
 * Cohort analysis provides valuable insights into how changes or interventions affect distinct groups of customers, enabling more informed decision-making and optimization of marketing efforts.
-
+<pre>
+</pre>
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/be639a00-46fb-4fe0-8f89-5512ee2ee8e5)
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c7ca00d0-5094-40bb-97be-8ddefe80ce90) 
@@ -66,7 +71,8 @@
 * This analysis helps retailers understand customer purchasing behavior and preferences, enabling them to optimize product placement, promotions, and cross-selling strategies.
 * By identifying frequently co-purchased items, businesses can enhance their sales strategies, improve customer satisfaction, and tailor their product offerings to meet customer needs more effectively.
 * Market basket analysis is commonly employed in retail, e-commerce, and other industries to increase revenue and enhance the overall shopping experience.
-
+<pre>
+</pre>
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/9ec68bd5-4328-42de-8dd9-4387dba49e1b) 
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c9589b8a-3f7e-4dbe-8fb7-cceb8d5202f9) 
