@@ -127,7 +127,7 @@ We have applied the following filters on the website.
    
    ##### Creating the DataFrame Header
    
-   <pre>
+<pre>
 <b>Algorithm </b> 
 
    Function <b>Create_dataframe():</b>
@@ -170,7 +170,7 @@ We have applied the following filters on the website.
   ##### Append the Dataframe with Values
 Below is the algorithm of the code to scrape, extract features and append to dataframe. 
 <pre> 
-      <b>Algorithm </b>
+<b>Algorithm </b>
   <<b>for</b> i <-- 0 to 4:           # Loop 4 pages 
       page_number <-- i       # Assign i 
   df, fields <--  <b>Call Create_dataframe()</b>
