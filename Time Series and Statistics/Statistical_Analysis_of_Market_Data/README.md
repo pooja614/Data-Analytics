@@ -30,5 +30,13 @@
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/e4cecba7-61b1-4284-a7af-14360abf099c)
 
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/5e06f7f1-3007-4974-a4c1-f92a6f50fc12)
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/44caf892-9d00-436a-a41c-b97092671e1d)
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/3fb01606-c477-4750-b8b4-e0f74bd2ecc4) 
+
+![image](https://github.com/pooja614/Data-Analytics/assets/69869583/75bb5f38-e825-4aca-81e7-572d8c2a36fb)
+
 
 
