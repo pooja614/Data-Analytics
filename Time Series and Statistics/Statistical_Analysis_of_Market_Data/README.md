@@ -41,12 +41,13 @@
 
 ##### Statistical Significance Test
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/5e06f7f1-3007-4974-a4c1-f92a6f50fc12)
-
+###### Anova Test
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/44caf892-9d00-436a-a41c-b97092671e1d)
 #### Q2. Test whether wine purchase across Australia, India and Canada has the same average ? 
-
+###### Kruskal-Wallis Test
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/3fb01606-c477-4750-b8b4-e0f74bd2ecc4) 
 #### Q3. Is there association between Marital Situation and Income? 
+##### Point-Biserial Correlation
 
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/75bb5f38-e825-4aca-81e7-572d8c2a36fb)
