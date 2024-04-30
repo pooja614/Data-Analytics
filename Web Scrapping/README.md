@@ -171,7 +171,7 @@ Below is the algorithm of the code to scrape, extract features and append to dat
 <pre>
   <<b>for</b> i <-- 0 to 4:           # Loop 4 pages 
       page_number <-- i       # Assign i 
-  df, fields <--  Call Create_dataframe() 
+  df, fields <--  <b>Call Create_dataframe()</b>
       correction <-- 30 * page_number   # Each page has 30 values, correction for dataframe index
       url    <-- URL of the webpage
       result <-- send get request to the webpage and return status code
@@ -183,7 +183,8 @@ Below is the algorithm of the code to scrape, extract features and append to dat
          <b>for</b> i in fields:       # Assign fields as keys and assign NONE 
             item_dictionary[i] <-- None
 
-         # Loop to extract relevant features
+         # Loop to extract relevant features 
+               
          <b>for</b> i <-- 0 to length of info:
             val_dict   <-- {} 
             title      <-- Extract text from info[i] by h2 class "mb-srp__card--title"
@@ -192,10 +193,11 @@ Below is the algorithm of the code to scrape, extract features and append to dat
                society_name <-- Extract text from society_name
             Price       <-- Extract text from info[i] by div class "mb-srp__card__price--amount" 
             Price_Per_sqft <-- Extract div class "mb-srp__card__society" from info[i] 
-            <b>if Price_Per_sqft is not None:
+            <b>if</b> Price_Per_sqft is not None:
                Price_Per_sqft <-- Extract text from Price_Per_sqft 
 
-            # Add values to dictionary
+            # Add values to dictionary 
+                  
             val_dict['title'] <-- title                  
             val_dict['Society_Name'] <-- society_name
             val_dict['Price'] <-- Price
@@ -204,10 +206,12 @@ Below is the algorithm of the code to scrape, extract features and append to dat
             item_dict <-- item_dictionary             # Assign initiated dictionary
 
             # Extract labels and respective values 
+               
             labels <-- Extract div class "mb-srp__card__summary--label" from info[i] 
             values <-- Extract div class "mb-srp__card__summary--value" from info[i]
              
             # Add values to relevant keys 
+               
             <b>for</b> j <-- 0 to length of labels:
                item_dict[Extract text from labels[j]] <-- Extract text from values[j]
             
