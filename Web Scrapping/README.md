@@ -169,9 +169,9 @@ We have applied the following filters on the website.
   ##### Append the Dataframe with Values
 Below is the algorithm of the code to scrape, extract features and append to dataframe. 
 <pre>
-  df, fields <-- Call Create_dataframe() 
-  for i <-- 0 to 4:           # Loop 4 pages 
+  <<b>for</b> i <-- 0 to 4:           # Loop 4 pages 
       page_number <-- i       # Assign i 
+  df, fields <--  Call Create_dataframe() 
       correction <-- 30 * page_number   # Each page has 30 values, correction for dataframe index
       url    <-- URL of the webpage
       result <-- send get request to the webpage and return status code
@@ -180,19 +180,19 @@ Below is the algorithm of the code to scrape, extract features and append to dat
       price_info <--  Get values inside div class 'mb-srp__card__estimate'
       item_dictionary <-- {} # initialize
          # Different properties have different features. Thus initialize to NONE
-         for i in fields:       # Assign fields as keys and assign NONE 
+         <b>for</b> i in fields:       # Assign fields as keys and assign NONE 
             item_dictionary[i] <-- None
 
          # Loop to extract relevant features
-         for i <-- 0 to length of info:
+         <b>for</b> i <-- 0 to length of info:
             val_dict   <-- {} 
             title      <-- Extract text from info[i] by h2 class "mb-srp__card--title"
             society_name <-- Extract div class "mb-srp__card__society" from info[i]
-            if society_name is not None:
+            <b>if</b> society_name is not None:
                society_name <-- Extract text from society_name
             Price       <-- Extract text from info[i] by div class "mb-srp__card__price--amount" 
             Price_Per_sqft <-- Extract div class "mb-srp__card__society" from info[i] 
-            if Price_Per_sqft is not None:
+            <b>if Price_Per_sqft is not None:
                Price_Per_sqft <-- Extract text from Price_Per_sqft 
 
             # Add values to dictionary
@@ -208,7 +208,7 @@ Below is the algorithm of the code to scrape, extract features and append to dat
             values <-- Extract div class "mb-srp__card__summary--value" from info[i]
              
             # Add values to relevant keys 
-            for j <-- 0 to length of labels:
+            <b>for</b> j <-- 0 to length of labels:
                item_dict[Extract text from labels[j]] <-- Extract text from values[j]
             
             final_dict = val_dict OR item_dict     # Combine both the dictionaries 
