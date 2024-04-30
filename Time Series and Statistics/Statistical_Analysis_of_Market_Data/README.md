@@ -15,20 +15,20 @@
 ##### Testing Numerical Attributes
 ###### Visual Normality Examination
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/2c3c6899-2df6-4701-93e4-73c27024d07b)
-
+###### Outlier Analysis By Tukey Formula 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/6fdc40a5-265b-45a5-9284-1e0b5fc72bb9)
-
+###### Multiple Imputation 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/c54193ec-edda-4e53-8075-d2527b768814)
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/1c138822-8c65-456b-b51b-f63fdc77a5a6)
 
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/eaa6f4b1-c8c7-4a16-95f7-fe03044147b6)
-
+###### Q-Q Plot
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/7d33622a-3ed8-4f21-821b-471fa97f1de4)
 
 ###### Normality Test
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/14ba2b5e-2ea1-4d65-981e-c619a71fc8d7)
-
+###### Visualizing Bimodal Data
 ![image](https://github.com/pooja614/Data-Analytics/assets/69869583/144952b8-f96d-4a32-9adb-610d7ee57db6) 
 
 #### Q1. Test if the average income of 'Australia', 'India' and 'Canada’ is same?
