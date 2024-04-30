@@ -129,16 +129,16 @@ We have applied the following filters on the website.
    
    <pre>
    <b>Algorithm </b>
-   Function Create_dataframe():
+   Function <b>Create_dataframe():</b>
          url    <-- URL of the webpage
          result <-- send get request to the webpage and return status code
          doc    <-- Create object of Beautiful Soup and parse the html file
          info   <-- Get values inside div class 'mb-srp__card__info'  # Get relevant classes
          fields <-- [] # Initialize field
-         for i <-- 0 to len of info:
+         <b>for</b> i <-- 0 to len of info:
             labels <-- Extract div class "mb-srp__card__summary--label" from info[i]
             fields <-- Append fields list with labels not in fields (No repeatition) 
-         for i <-- 0 to length of fields:
+         <b>for</b> i <-- 0 to length of fields:
             fields[i] <-- extract text from fields[i} 
 
          df_titles = list of ['title', 'Society_Name', 'Price', 'Price_Per_sqft'] + fields 
@@ -168,7 +168,8 @@ We have applied the following filters on the website.
      
   ##### Append the Dataframe with Values
 Below is the algorithm of the code to scrape, extract features and append to dataframe. 
-<pre>
+<pre> 
+      <b>Algorithm </b>
   <<b>for</b> i <-- 0 to 4:           # Loop 4 pages 
       page_number <-- i       # Assign i 
   df, fields <--  <b>Call Create_dataframe()</b>
