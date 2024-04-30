@@ -128,7 +128,8 @@ We have applied the following filters on the website.
    ##### Creating the DataFrame Header
    
    <pre>
-   <b>Algorithm </b>
+<b>Algorithm </b> 
+
    Function <b>Create_dataframe():</b>
          url    <-- URL of the webpage
          result <-- send get request to the webpage and return status code
