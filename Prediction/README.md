@@ -53,7 +53,7 @@ Conducted basic exploratory data analysis to verify the required preprocessing s
 2. (you can delete less than 5% values from a dataset if it has null values)
 Assumption 1: Linearity (make data linear)
 3.Check for linearity using scatter plot                               
-Assumption 2: No endogenity (find correaltion of residuals with individual x) - not now
+Assumption 2: No endogenity (find correlation of residuals with individual x) - not now
 Assumption 3: Normality and homodescadasticity(assumed to hold after transformation)(Normality assumed for big sample)
 Assumption 4: autocorrelation
 Assumption 5: Multicollinearity: We have obsserved and removed
