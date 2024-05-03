@@ -56,7 +56,7 @@ Assumption 1: Linearity (make data linear)
 Assumption 2: No endogenity (find correlation of residuals with individual x) - not now
 Assumption 3: Normality and homodescadasticity(assumed to hold after transformation)(Normality assumed for big sample)
 Assumption 4: autocorrelation
-Assumption 5: Multicollinearity: We have obsserved and removed
+Assumption 5: Multicollinearity: To be checked 
 </Pre>
 #### 3.1.1 Multicollinearity 
 Multicollinearity occurs when two or more independent variables in a regression model are highly correlated, leading to instability and unreliable estimates of the coefficients. 
