@@ -1,3 +1,61 @@
+Project Report: Engineering a Specialized Text-to-SQL Prompt for Web Analytics
+1. Aim
+The primary objective of this project was to engineer a Specialized Text-to-SQL Prompt capable of translating complex natural language business questions into accurate, high-performance, and "Strict Mode" compliant MySQL queries for the MavenFuzzyFactory database.
+
+The goal was to ensure the LLM could handle advanced analytical concepts—such as session-to-order conversion rates, multi-level time-series pivoting (heatmaps), and sequential user behavior analysis—without manual code correction.
+
+2. Methodology: Iterative Prompt Engineering
+To achieve high accuracy, I followed an iterative "Loop-Back" testing method:
+
+Basic Prompt Design: I initially designed a baseline instruction set containing the database schema and general rules.
+
+Gold Standard Benchmarking: I prepared a test set of business questions and "Target SQL" queries (the ground truth) that were verified to produce the correct results in MySQL.
+
+Execution & Verification: I submitted the questions to the LLM one by one and executed the output in MySQL Workbench.
+
+Comparison & Gap Analysis: I compared the LLM output with my expected results, checking for:
+
+Syntax Errors: (e.g., MySQL Error 1055 regarding ONLY_FULL_GROUP_BY).
+
+Logical Errors: (e.g., inflated averages or missing "zero" data).
+
+Prompt Redesign: I refined the prompt rules based on specific failure points and repeated the cycle until the LLM consistently matched the expected output.
+
+3. Key Issues Identified & Resolved
+A. Intent-Based Logic (The Over-Engineering Fix)
+The Issue: The LLM was using complex Window Functions for simple trends or using standard joins for sequential user tasks (like "orders within 7 days of each other").
+
+The Resolution: We defined Rule 4 (Intent-Based Logic), which forces the LLM to choose the correct pattern (Window Functions vs. Standard Joins) based on keywords in the question.
+
+B. Multi-Level Aggregation (The Pivot/Heatmap Problem)
+The Issue: Questions asking for "average volume by hour and day" produced flat tables or incorrect math because SQL cannot perform an AVG(COUNT()) in a single step.
+
+The Resolution: I implemented Rule 4B, requiring a CTE (Common Table Expression) to first aggregate counts by date/hour/weekday, and then an outer query to pivot them using CASE WHEN.
+
+C. The "NULL vs. Zero" Average Trap
+The Issue: The LLM used ELSE NULL in its logic. MySQL’s AVG() function ignores NULLs, which artificially inflated volume averages by ignoring "empty" time slots.
+
+The Resolution: I added a mandatory ELSE 0 clause to all pivot logic, ensuring that "zero-traffic" hours are correctly included in the average.
+
+D. Fan-out & Data Integrity
+The Issue: Joining a "one" table (Sessions) to a "many" table (Pageviews) multiplied the session counts (Fan-out).
+
+The Resolution: I enforced Rule 6 (Fan-out Protection), requiring the LLM to always use COUNT(DISTINCT website_session_id) to preserve the integrity of the primary metric.
+
+E. Traffic-First Pattern (Survivorship Bias)
+The Issue: The LLM would often start queries from the orders table, which ignored the 95%+ of traffic that did not purchase, leading to incorrect conversion rates.
+
+The Resolution: I codified Rule 5 (Traffic-First), forcing a LEFT JOIN starting from website_sessions to ensure all site visitors are accounted for.
+
+
+
+
+
+
+
+
+
+
 #### Project Slides
 # Ecommerce Performance and Website Analysis 
 
