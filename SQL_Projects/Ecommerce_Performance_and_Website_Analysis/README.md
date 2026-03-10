@@ -137,6 +137,13 @@ Verify it fixes the failure without breaking other queries
 Ask: should this rule be local or global?
 
 </pre>
+
+#### How Rules changed over different Iterations. 
+Observe failure
+    ↓
+Diagnose root cause (wrong function? wrong scope? missing pattern?)
+    ↓
+Write a precise rule that closes exactly that gap
 <pre>
 Previous Rules: 
 
