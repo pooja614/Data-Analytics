@@ -11,8 +11,7 @@ To achieve high accuracy, I followed an iterative "Loop-Back" testing method:
   
 * <B>Gold Standard Benchmarking:</B> Prepared a test set of business questions and "Target SQL" queries (the ground truth) that were verified to produce the correct results in MySQL.
   
-* #### Execution & Verification:
-  - Submitted the questions to the LLM one by one and executed the output in MySQL Workbench.
+* <B>Execution & Verification:</B> Submitted the questions to the LLM one by one and executed the output in MySQL Workbench.
     
 * #### Comparison & Gap Analysis:
   Compared the LLM output with my expected results, checking for:
