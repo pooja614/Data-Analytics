@@ -7,16 +7,15 @@
 ### Methodology: Iterative Prompt Engineering
 
 To achieve high accuracy, I followed an iterative "Loop-Back" testing method:
-* ##### Basic Prompt Design:I initially designed a baseline instruction set containing the database schema and general rules.
-* <B>Gold Standard Benchmarking:</B>Prepared a test set of business questions and "Target SQL" queries (the ground truth) that were verified to produce the correct results in MySQL.
+* <B>Basic Prompt Design:</B> I initially designed a baseline instruction set containing the database schema and general rules.
+* <B>Gold Standard Benchmarking:</B> Prepared a test set of business questions and "Target SQL" queries (the ground truth) that were verified to produce the correct results in MySQL.
 * #### Execution & Verification:
   - Submitted the questions to the LLM one by one and executed the output in MySQL Workbench.
 * #### Comparison & Gap Analysis:
   Compared the LLM output with my expected results, checking for:
    - Syntax Errors: (e.g., MySQL Error 1055 regarding ONLY_FULL_GROUP_BY).
    - Logical Errors: (e.g., inflated averages or missing "zero" data).
-* #### Prompt Redesign:
-   - I refined the prompt rules based on specific failure points and repeated the cycle until the LLM consistently matched the expected output.
+* <B>Prompt Redesign:</B> I refined the prompt rules based on specific failure points and repeated the cycle until the LLM consistently matched the expected output.
 
 ### Key Issues Identified & Resolved
 #### A. Intent-Based Logic (The Over-Engineering Fix)
