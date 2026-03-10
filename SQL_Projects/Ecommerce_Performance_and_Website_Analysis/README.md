@@ -7,10 +7,8 @@
 ### Methodology: Iterative Prompt Engineering
 
 To achieve high accuracy, I followed an iterative "Loop-Back" testing method:
-* #### Basic Prompt Design:
-  - I initially designed a baseline instruction set containing the database schema and general rules.
-* #### Gold Standard Benchmarking:
-  - Prepared a test set of business questions and "Target SQL" queries (the ground truth) that were verified to produce the correct results in MySQL.
+* ##### Basic Prompt Design:I initially designed a baseline instruction set containing the database schema and general rules.
+* <B>Gold Standard Benchmarking:</B>Prepared a test set of business questions and "Target SQL" queries (the ground truth) that were verified to produce the correct results in MySQL.
 * #### Execution & Verification:
   - Submitted the questions to the LLM one by one and executed the output in MySQL Workbench.
 * #### Comparison & Gap Analysis:
@@ -51,8 +49,8 @@ Learning Outcome:
 #### Rules Must Come From Real Failures
 * Got wrong output → Diagnosed WHY → Added specific rule → Verified fix
 
-
--- You had to give this pattern explicitly
+<pre>
+-- Gave this pattern explicitly
 WITH t1 AS (
   SELECT DATE(), WEEKDAY(), HOUR(), COUNT(DISTINCT...) 
   GROUP BY 1,2,3
@@ -64,7 +62,7 @@ SELECT hr, AVG(CASE WHEN wkday = 0 THEN metric ELSE 0 END) AS mon...
 ---
 
 ### 5. Scope of Rules Matters
-One of your most important fixes was realizing a rule was **too narrowly scoped:**
+One of the most important fixes was realizing a rule was **too narrowly scoped:**
 - Strict mode rule was inside the heatmap section only
 - LLM applied it only for pivot queries
 - Moving it to global aggregation rules fixed it everywhere
@@ -74,7 +72,7 @@ One of your most important fixes was realizing a rule was **too narrowly scoped:
 ---
 
 ### 6. Intent Classification Is Powerful
-You learned to categorize question types and give each a dedicated pattern:
+Learnt to categorize question types and give each a dedicated pattern:
 ```
 Question Type          →    Pattern
 ─────────────────────────────────────────────
@@ -90,7 +88,7 @@ Refund analysis        →    JOIN order_item_refunds
 ---
 
 ### 7. Ambiguity Is the Enemy
-Every time the LLM had to *guess* what you meant, it got it wrong. You fixed this with explicit mappings:
+Every time the LLM had to *guess* what I meant, it got it wrong. Fixed this with explicit mappings:
 ```
 "sessions"        → which table, which count function
 "conversion rate" → exact formula, not interpretation
@@ -101,7 +99,7 @@ Every time the LLM had to *guess* what you meant, it got it wrong. You fixed thi
 ---
 
 ### 8. Output Consistency Needs Its Own Rules
-You learned that getting the *right answer* isn't enough for production systems:
+Learnt that getting the *right answer* isn't enough for production systems:
 - Unreadable column names break downstream code
 - Missing ORDER BY produces unpredictable results
 - SELECT * breaks when schema changes
@@ -111,7 +109,7 @@ You learned that getting the *right answer* isn't enough for production systems:
 ---
 
 ### 9. Prompt Structure Mirrors Software Architecture
-By the end your prompt had clear separation of concerns:
+By the end prompt had clear separation of concerns:
 ```
 Syntax Rules          → How to write MySQL
 Intent Rules          → What pattern to use for each question type
@@ -125,7 +123,7 @@ Output Rules          → How to format the result
 ---
 
 ### 10. The Meta Skill You Built
-Most beginners think prompt engineering is about finding magic words. What you actually built is:
+What was actually built is:
 ```
 Observe failure
     ↓
@@ -137,7 +135,7 @@ Verify it fixes the failure without breaking other queries
     ↓
 Ask: should this rule be local or global?
 
-
+</pre>
 
 
 
